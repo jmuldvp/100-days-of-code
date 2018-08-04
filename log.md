@@ -1,5 +1,9 @@
 # 100 Days Of Code - Log
 
+Disregard data below.  See my [r1-log](r1-log.md) for real entries.
+
+
+
 ### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
 
