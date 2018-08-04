@@ -1,10 +1,10 @@
-# #100DaysOfCode Log - Round 1 - [Your Name Here]
+# #100DaysOfCode Log - Round 1 - John M
 
 The log of my #100DaysOfCode challenge. Started on [August 3rd, 2017].
 
 ## Log
 
-<span style="color:blue">### R1D1 20180803</span>
+### R1D1 20180803
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -31,9 +31,9 @@ Note: Already on the _Basic CSS_ section since I actually started a few days ago
 **Thoughts:** Learned that classes are a way to structure [abstract data types](https://en.wikipedia.org/wiki/Abstract_data_type). I'm still hazy on how Ruby classes are formed and when to do initialization and when to make methods private.
 
 **Link to work:**
-Here's the latest [repo](https://github.com/jmuldvp/bloc-data-structures) for my data structures work.
+Here's the latest [repo](https://github.com/jmuldvp/bloc-data-structures) for my data structures work.<br />
 
-<span style="color:blue">### R1D2 20180804</span>
+### R1D2 20180804
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -64,10 +64,10 @@ Learned about data normalization.  Will pick up with denormalization next time.
 - Disadvantages of a normalized db: It's not easy designing a 3NF db. If devs don't truly understand the various normalization steps, this can cause data anomalies and inconsistency. Queries can get pretty complex. This will also increase the need for more joins among more tables. Performance gets increasingly slower as the normal form progresses.
 
 **Link to work:**
-No code pushed today. Twitter post is [here](https://twitter.com/johnmmweb/status/1025807349989036033).
+No code pushed today. Twitter post is [here](https://twitter.com/johnmmweb/status/1025807349989036033). <br />
 
 
-<span style="color:blue">### R1D3</span>
+### R1D3
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -83,7 +83,7 @@ No code pushed today. Twitter post is [here](https://twitter.com/johnmmweb/statu
 **Thoughts:**
 
 **Link to work:**
-
+<br />
 
 
 ### R1D4
