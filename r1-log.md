@@ -67,22 +67,43 @@ Learned about data normalization.  Will pick up with denormalization next time.
 No code pushed today. Twitter post is [here](https://twitter.com/johnmmweb/status/1025807349989036033). <br />
 
 
-### R1D3
+### R1D3 20180806
 #### freeCodeCamp
 
 **Today's Progress:**
+Half way through Applied Visual Design in freeCodeCamp.
 
 **Thoughts:**
+- `text-align: justify;` > causes all lines of text except the last line to meet the left and right edges of the line box. This goes to show how little I've played with laying out the front end but I didn't know what justify meant until now.
+- All the options on `box-shadow` will be confusing until I have a chance to use it more than a handful of times. The options are `offset-x`, `offset-y`, `blur-radius`, `spread-radius` and finally color.
+- This could come in handy for a navbar...  `text-transform: uppercase;`
+- CSS box model = Block level items are headings, paragraphs or divs). Inline items are images and spans. This is called _normal flow_.
+- > Hue is what people generally think of as 'color'.
+- > Saturation is the amount of gray in a color.
+- > Lightness is the amount of white or black in a color.
 
 **Link to work:**
+No code to push in this part. See Twitter [post](https://twitter.com/johnmmweb/status/1026712558638526464).
 
 #### Bloc.io
 
 **Today's Progress:**
+Half way through the assignment.  Will push tomorrow night to GitHub.
 
 **Thoughts:**
+- > If data normalization aims to reduce redundancy, data denormalization is a process performed on a previously-normalized database to increase *read performance*. This happens at the expense of losing some write performance, by adding redundant copies of data or by grouping data.
+- Methods of denormalization..
+  1. Adding redundant groups
+  2. Adding derived columns
+  3. Combining tables
+  4. Repeating groups
+  5. Creating extract tables
+  6. Partitioning relations
+- Super key = a set of attributes within a table whose values can be used to uniquely identify all other attributes.
+
 
 **Link to work:**
+See Twitter [post](https://twitter.com/johnmmweb/status/1026712558638526464) for now.
 <br />
 
 
