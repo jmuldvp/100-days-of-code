@@ -107,7 +107,53 @@ See Twitter [post](https://twitter.com/johnmmweb/status/1026712558638526464) for
 <br />
 
 
-### R1D4
+### R1D4 20180807
+#### freeCodeCamp
+
+**Today's Progress:**
+Almost finished the 'Applied Visual Design' section.  I should be finished with it tomorrow.
+
+**Thoughts:**
+- Learned about `background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);`. `rgb()` or `hsl()` could also be used in the color options. I'm not a CSS buff but I've been through a lot of tutorials and hadn't heard of that before.
+- This is probably my inexperience talking but I just learned about `repeating-linear-gradient()` but I don't see any use for it unless the goal was to make a web page that looks like it was made in the 90's.  I'll have to google that to see if any big sites are using it and if so, how.
+- Here's another I just learned about...  `background: url()` where the address is inserted in within the parentheses.
+- `transform:scale(2);` makes something twice as big as it's normal size.
+- By using `:hover` and `transform: scale(1.1)` will scale the object when the mouse hovers.
+- `transform: skewX(24deg);` can change a rectangle to something looks like a parallelogram. `transform: skewY(-10deg);` can do the same but it moves it along the y-axis.
+- Implementing an animation with `@keyframes` was kind of cool but would have to be used in moderation to keep a web page looking cool if used.
+```
+#anim {
+  animation-name: colorful;
+  animation-duration: 3s;
+}
+@keyframes colorful {
+  0% {
+    background-color: blue;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+```
+
+**Link to work:**
+No code to push for freeCodeCamp. See Twitter [post](https://twitter.com/johnmmweb/status/1027056646722281472) for update.
+
+#### Bloc.io
+
+**Today's Progress:**
+- Completed checkpoint 10 (Data Normalization and Denormalization)
+- Took the normalization-denormalization SQL quiz and passed it 11/12 the first time then 12/12 the next.
+- I read the entire Stacks and Queues checkpoint... FIFO, LIFO and The Stack. Tomorrow I'll work on the assignment.
+
+**Thoughts:**
+- Flattened out the student_records table to 3NF.
+- Assigning myself a personal task...I want to do that exercise but by putting students and professors in a person table.
+
+**Link to work:**
+[Link](https://github.com/jmuldvp/bloc-rdbf/blob/cp10-assign/cp10/cp10.md) the the markdown file containing the questions I had to answer. Also, see Twitter [post](https://twitter.com/johnmmweb/status/1027056646722281472).<br />
+
+### R1D5
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -123,3 +169,22 @@ See Twitter [post](https://twitter.com/johnmmweb/status/1026712558638526464) for
 **Thoughts:**
 
 **Link to work:**
+<br />
+
+### R1D6
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts:**
+
+**Link to work:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts:**
+
+**Link to work:**
+<br />
