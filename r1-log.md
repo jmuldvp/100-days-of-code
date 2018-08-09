@@ -153,22 +153,25 @@ No code to push for freeCodeCamp. See Twitter [post](https://twitter.com/johnmmw
 **Link to work:**
 [Link](https://github.com/jmuldvp/bloc-rdbf/blob/cp10-assign/cp10/cp10.md) the the markdown file containing the questions I had to answer. Also, see Twitter [post](https://twitter.com/johnmmweb/status/1027056646722281472).<br />
 
-### R1D5
+### R1D5 20180808
 #### freeCodeCamp
 
 **Today's Progress:**
 
-**Thoughts:**
-
-**Link to work:**
+I wasn't able to get to do any of the freeCodeCamp camp material.  I spent the last 5 hours working on a Stacks and Queue's assignment.
 
 #### Bloc.io
 
 **Today's Progress:**
+I was able to get spec tests to pass for a Ruby stack exercise but I'm having problems with implementing a `pop` function without using the actual `pop` function.  Per the assignment, I'm not supposed to use that function.
+Hopefully I'll be able to finish this checkpoint tomorrow.
 
 **Thoughts:**
+- Stack = This is like LIFO.  When you stack papers on top of each other, you pick the top one off the pile when you need to use it or move it.
+- Queue = This is like FIFO.  This is like a line at the grocery store. First one in the line is the first out.
 
 **Link to work:**
+See Twitter [post](https://twitter.com/johnmmweb/status/1027419894210428928).
 <br />
 
 ### R1D6
