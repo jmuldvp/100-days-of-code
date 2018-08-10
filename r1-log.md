@@ -174,7 +174,55 @@ Hopefully I'll be able to finish this checkpoint tomorrow.
 See Twitter [post](https://twitter.com/johnmmweb/status/1027419894210428928).
 <br />
 
-### R1D6
+### R1D6 20180909
+#### freeCodeCamp
+
+**Today's Progress:**
+I completed the Applied Visual Design section of CSS.
+
+**Thoughts:**
+- I'm used to using numbers to set values in CSS but just learned about the word `infinite` that can be used in `animation-iteration-count`.
+- Note on `cubic-bezier`.
+> cubic-bezier(0.3, 0.4, 0.5, 1.6);
+> Notice that the value of y2 is larger than 1. Although the cubic Bezier curve is mapped on an 1 by 1 coordinate system, and it can only accept x values from 0 to 1, the y value can be set to numbers larger than one. This results in a bouncing movement that is ideal for simulating the juggling ball.
+
+- I think there could be a whole course on CSS applied visual design.  There's too much to know about this. I'm proceeding through these CSS sections just to get the basics. My goal is not to get involved too much in UX.
+
+**Link to work:**
+See Twitter [post](https://twitter.com/johnmmweb/status/1027777902497083392).
+
+#### Bloc.io
+
+**Today's Progress:**
+Completed the Stacks and Queue's assignment
+
+**Thoughts:**
+- I feel dumb getting stuck on what I feel are easy things.  One line messed me up on the mystack.rb coding exercise.
+
+**Link to work:**
+Here's my [work](https://github.com/jmuldvp/bloc-data-structures/tree/cp2-assign) for this assignment.
+
+<br />
+
+### R1D7
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts:**
+
+**Link to work:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts:**
+
+**Link to work:**
+<br />
+
+### R1D8
 #### freeCodeCamp
 
 **Today's Progress:**
