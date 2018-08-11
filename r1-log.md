@@ -204,22 +204,43 @@ Here's my [work](https://github.com/jmuldvp/bloc-data-structures/tree/cp2-assign
 
 <br />
 
-### R1D7
+### R1D7 20180810
 #### freeCodeCamp
 
 **Today's Progress:**
+I'm almost half way through the *Applied Accessibility* challenges.
 
-**Thoughts:**
+**Thoughts/Notes:**
+- I didn't know that the `alt` tag was looked at by search engines. Note to self, always use `alt` tags on images.
+- I never knew this... > One final point, each page should always have one (and only one) h1 element, which is the main subject of your content. This and the other headings are used in part by search engines to understand the topic of the page.
+- Tag names like `main`, `header`, `footer`, `nav`, `article` and `section` > ..can indicate the type of information it contains, which adds semantic meaning to that content. Assistive technologies can access this information to provide better page summary or navigation options to their users.
+- In the FCC challenge, the `main` tag goes between `header` and `footer`.
+- The `article` tag is > ...a sectioning element, and is used to wrap independent, self-contained content. The tag works well with blog entries, forum posts, or news articles.
+- <div> - groups content
+<section> - groups related content
+<article> - groups independent, self-contained content
+- About the `header` tag.. > ...header is meant for use in the body tag of your HTML document. This is different than the head element, which contains the page's title, meta information, etc.
+- The `nav` tag is meant to wrap around all the main navigation links.  However > ...If there are repeated site links at the bottom of the page, it isn't necessary to markup those with a nav tag as well. Using a footer is sufficient.
+- The `footer` tag is > ...primarily used to contain copyright information or links to related documents that usually sit at the bottom of a page.
 
 **Link to work:**
+See Twitter [post](https://twitter.com/johnmmweb/status/1028161767522762753).
 
 #### Bloc.io
 
 **Today's Progress:**
+Read through the *Linked Lists* checkpoint slowly to try and understand it as best as I can.
 
-**Thoughts:**
+**Thoughts/Notes:**
+- *Spatial Locality* = When cpu requests data no found in cache, it retrieves an entire range of locations in ram and places it in cache.
+- There is no code in the check point but rather reading to understand concepts about *Linked Lists*.
+  - Definition of a *Linked List* = >  data structure that permits the sequential order of elements, much like an Array, but it circumvents Array’s memory issues.
+  - To maintain a linked list, code will store a reference to the first node in the list called the _head_.
+  - Indexing a *Linked List* is not possible like it is with arrays. To access an element, you have to start at the beginning.
+- While there was an explanation of the pros and cons of *Linked Lists* given, I'm still not understanding it. Not sure why every node in a *Linked List* being instantiated so that it never consists of empty placeholders is a good thing.  As far as the con is concerned, I'm still not sure what a 'Cache-miss' is.  
 
 **Link to work:**
+See Twitter [post](https://twitter.com/johnmmweb/status/1028161767522762753).
 <br />
 
 ### R1D8
@@ -227,7 +248,7 @@ Here's my [work](https://github.com/jmuldvp/bloc-data-structures/tree/cp2-assign
 
 **Today's Progress:**
 
-**Thoughts:**
+**Thoughts/Notes:**
 
 **Link to work:**
 
@@ -235,7 +256,26 @@ Here's my [work](https://github.com/jmuldvp/bloc-data-structures/tree/cp2-assign
 
 **Today's Progress:**
 
-**Thoughts:**
+**Thoughts/Notes:**
+
+**Link to work:**
+<br />
+
+
+### R1D9
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
 
 **Link to work:**
 <br />
