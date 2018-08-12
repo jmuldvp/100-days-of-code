@@ -247,18 +247,68 @@ See Twitter [post](https://twitter.com/johnmmweb/status/1028161767522762753).
 #### freeCodeCamp
 
 **Today's Progress:**
+Completed all of the applied accessibility challenges.
 
 **Thoughts/Notes:**
+- The `audio` tag is used with the `controls` attribute.
+```
+<audio id="meowClip" controls>
+  <source src="audio/meow.mp3" type="audio/mpeg" />
+</audio>
+```
+- Another tag that helps is `label`.  See example...
+```
+<form>
+  <label for="name">Name:</label>
+</form>
+```
+- Example of using `fieldset` and `legend`...
+```
+<form>
+  <fieldset>
+    <legend>Choose one of these three items:</legend>
+    <input id="one" type="radio" name="items" value="one">
+    <label for="one">Choice One</label><br>
+    <input id="two" type="radio" name="items" value="two">
+    <label for="two">Choice Two</label><br>
+    <input id="three" type="radio" name="items" value="three">
+    <label for="three">Choice Three</label>
+  </fieldset>
+</form>
+```
+- For `input` and letting a user pick a date, here is some sample code..
+```
+<label for="input1">Enter a date:</label>
+<input type="date" id="input1" name="input1">
+```
+- Using the `time` element, here's an example...
+```
+<time datetime="2013-02-13">last Wednesday</time>
+```
+- The next sections talk about hsl and contrasting colors.  While I'm glad I read over it, I don't see myself need to use this information much since I'm going to be doing more backend work with the exception of a blog that I might start.  when I do that, I'm going to be choosing colors that really contrast with each other.
+- This can help keyboard only users in choosing links..
+```
+<button accesskey="b">Important Button</button>
+```
+- Using the `tabindex` element also helps keyboard users.  If there is a negative number, it means that it's not keyboard accessible.
+```
+<div tabindex="0">I need keyboard focus!</div>
+```
+-
 
 **Link to work:**
+I hope to be able to have a Github link here sometime soon. Still going to use the Twitter [post](https://twitter.com/johnmmweb/status/1028474774089912320) for now.
 
 #### Bloc.io
 
 **Today's Progress:**
+Started the *Linked Lists* assignment.
 
 **Thoughts/Notes:**
+- Looks like the idea is to learn how to use classes from other files as well as learning about the logic of linked lists.
 
 **Link to work:**
+No code pushed since I wasn't able to finish the assignment tonight.
 <br />
 
 
