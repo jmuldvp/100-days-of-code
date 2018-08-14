@@ -243,7 +243,7 @@ Read through the *Linked Lists* checkpoint slowly to try and understand it as be
 See Twitter [post](https://twitter.com/johnmmweb/status/1028161767522762753).
 <br />
 
-### R1D8
+### R1D8 20180811
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -312,7 +312,43 @@ No code pushed since I wasn't able to finish the assignment tonight.
 <br />
 
 
-### R1D9
+### R1D9 20180813
+#### freeCodeCamp
+
+**Today's Progress:**
+I did not work on freeCodeCamp material tonight.
+
+#### Bloc.io
+
+**Today's Progress:**
+Still working on the assignment for data structures assignment for checkpoint 3
+
+**Thoughts/Notes:**
+- I finally got the RSpec test to pass for adding to the end of a linked list.  Now I'm having problems with removing an item from the end of the array.
+
+**Link to work:**
+See [my Twitter post](https://twitter.com/johnmmweb/status/1029240144002334720)
+<br />
+
+### R1D10 20180814
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+<br />
+
+### R1D11 20180815
 #### freeCodeCamp
 
 **Today's Progress:**
