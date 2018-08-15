@@ -334,6 +334,42 @@ See [my Twitter post](https://twitter.com/johnmmweb/status/1029240144002334720)
 #### freeCodeCamp
 
 **Today's Progress:**
+Completed Responsive Web Design Principles
+
+**Thoughts/Notes:**
+- Started *Responsive Web Design Principles*
+- Covered the `@media` tag.
+- In this code...
+```
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+```
+The `max-width` tag scales the width to fit inside it's container. The `display` element changes it from an in-line element to a block element. The `height` element keeps the original aspect ratio.
+- Completed Responsive Web Design Principles.  I can't wait to learn FlexBox.
+
+**Link to work:**
+See [Twitter post](https://twitter.com/johnmmweb/status/1029602300300410882)
+
+#### Bloc.io
+
+**Today's Progress:**
+I figured out some issues I had in my understanding of linked lists but am still stuck on the exercise of getting the rspec tests to pass.
+
+**Thoughts/Notes:**
+- I misunderstood the material in the checkpoint so I'm having to refer to other material to get a grasp of what a linked list is.
+- The node.rb file is there to create new nodes. At first I thought it was an array of arrays but after a discussion with a coach, it seemed like an array of hashes (key value pair) but instead its a collection of objects.
+
+**Link to work:**
+See [Twitter post](https://twitter.com/johnmmweb/status/1029602300300410882)
+<br />
+
+### R1D11 20180815
+#### freeCodeCamp
+
+**Today's Progress:**
 
 **Thoughts/Notes:**
 
@@ -348,7 +384,7 @@ See [my Twitter post](https://twitter.com/johnmmweb/status/1029240144002334720)
 **Link to work:**
 <br />
 
-### R1D11 20180815
+### R1D12 20180816
 #### freeCodeCamp
 
 **Today's Progress:**
