@@ -370,6 +370,35 @@ See [Twitter post](https://twitter.com/johnmmweb/status/1029602300300410882)
 #### freeCodeCamp
 
 **Today's Progress:**
+Made it halfway through the CSS FlexBox challenges.
+
+**Thoughts/Notes:**
+- To activate FlexBox, use `display: flex;` at the top of the element.
+- Using `flex-direction: row-reverse;` will reverse the elements.
+- Using `flex-direction: row;` lines things up in a row.
+- Using `flex-direction: column;` stacks the elements on top of each other.
+- The `justify-content:` option allows you to evenly space things out.  The options that can be used with this are `center`, `flex-start`, `flex-end`, `space-between`, `space-around` and `space-between`.
+
+**Link to work:**
+See [the Twitter post](https://twitter.com/johnmmweb/status/1029958975343583232).
+
+#### Bloc.io
+
+**Today's Progress:**
+`add_to_tail` method complete.  Now I'm stuck on the `remove_tail` method.
+
+**Thoughts/Notes:**
+- I thought I had a handle on how to work with linked lists but I was way off base.
+- The code for adding a node to the tail of a list was a lot shorter than I thought.
+
+**Link to work:**
+No code to push yet.
+<br />
+
+### R1D12 20180816
+#### freeCodeCamp
+
+**Today's Progress:**
 
 **Thoughts/Notes:**
 
@@ -384,7 +413,7 @@ See [Twitter post](https://twitter.com/johnmmweb/status/1029602300300410882)
 **Link to work:**
 <br />
 
-### R1D12 20180816
+### R1D13 20180817
 #### freeCodeCamp
 
 **Today's Progress:**
