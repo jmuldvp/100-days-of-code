@@ -399,18 +399,18 @@ No code to push yet.
 #### freeCodeCamp
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+No progress on freeCodeCamp material today.
 
 #### Bloc.io
 
 **Today's Progress:**
+Almost finished checkpoint 3.
 
 **Thoughts/Notes:**
+- Linked list is hard to understand but I feel I have even a better grasp of it now than I did yesterday.
 
 **Link to work:**
+Still working on the last benchmarking test to compare how fast using a linked list compared against an array.
 <br />
 
 ### R1D13 20180817
