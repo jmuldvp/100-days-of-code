@@ -417,6 +417,26 @@ Still working on the last benchmarking test to compare how fast using a linked l
 #### freeCodeCamp
 
 **Today's Progress:**
+Still no further progress on freeCodeCamp.
+
+#### Bloc.io
+
+**Today's Progress:**
+Completed the linked list assignment. Currently working through the first checkpoint in Engineering Principles - ORM Architecture.
+
+**Thoughts/Notes:**
+- After in SQLite3, `.tables` lists tables. `.databases` lists all of the db's. `.headers on` turns on the headers to keep the output of select statements organized. `.mode column` also helps with the look of the output.
+- By default foreign keys are disabled.  Must make enter this to change that... `PRAGMA foreign_keys = ON;`  "pragma" is also known as a pragmatic directive.
+- `.save data.db` saves the information out to a file.
+
+**Link to work:**
+Here's the [GitHub repo for my ORM studies](https://github.com/jmuldvp/orm-arch).
+<br />
+
+### R1D14 20180818
+#### freeCodeCamp
+
+**Today's Progress:**
 
 **Thoughts/Notes:**
 
