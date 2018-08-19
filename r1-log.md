@@ -437,6 +437,42 @@ Here's the [GitHub repo for my ORM studies](https://github.com/jmuldvp/orm-arch)
 #### freeCodeCamp
 
 **Today's Progress:**
+Didn't get to this today.
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+- I thought the db would open with the tables I created from last time but I found out otherwise.
+- New commands learned `.open "file name here"`.
+- Learning ActiveRecord and it's finally starting to click.
+
+**Link to work:**
+<br />
+
+### R1D15 20180819
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+<br />
+
+### R1D16 20180820
+#### freeCodeCamp
+
+**Today's Progress:**
 
 **Thoughts/Notes:**
 
