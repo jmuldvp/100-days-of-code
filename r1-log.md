@@ -451,25 +451,51 @@ Didn't get to this today.
 **Link to work:**
 <br />
 
-### R1D15 20180819
+### R1D15 20180820
 #### freeCodeCamp
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+No progress on freeCodeCamp stuff today.
 
 #### Bloc.io
 
 **Today's Progress:**
+Completed ORM checkpoint 1. I got halfway through the *Databases: Create an ORM* section of the ORM material.
 
 **Thoughts/Notes:**
+- Creating a new framework called *BlocRecord* which will be a drop-in replacement for ActiveRecord.  Advice given the the checkpoint...
+> In a project deployed to real users, you should still use  ActiveRecord or a robust alternative like [DataMapper](http://datamapper.org/).
+
+- Creating this project as a RubyGem, allows for integration with other software.
+- At minimum, a RubyGem needs a _.gemspec_ file and one Ruby file.
+- The gemspec file defines metadata about the RubyGem like name, version etc.
+- A gemspec is called from a Ruby method.
+- The plan is to add `BlocRecord` to `AddressBloc`.  This is a command-line address book app written in Ruby. In it's current form, the information is only saved when the app is running so it doesn't persist. The plan is to make it so that it does persist and keep the data.
+- In the main file `lib/bloc_record.rb`, code is created to connect to the database...or rather call code from another file that allows it to connect.
+- The file used to encapsulate the code for the connection is `bloc_record/connection.rb`.
+- Creating 2 more files...
+  - The first file `lib/bloc_record/utility.rb` will contain reusable functions for transforming data.
+  - The second file `lib/bloc_record/schema.rb` will contain information about the database schema.
+    - Methods added to the schema are *table*, *schema*, *columns*, *attributes* and *count*. The *count* method uses things I've seen before like a heredoc `<<-` that I first learned about in PHP and then it looks like an actual SQL statement.
+    ```
+    def count
+      connection.execute(<<-SQL)[0][0]
+        SELECT COUNT(*) FROM #{table}
+      SQL
+    end
+    ```
+
+    The code could have also been written this way...
+    ```
+    connection.execute("SELECT COUNT(*) FROM #{table}")[0][0]
+    ```
+    > However, our SQL queries will get longer and the best practice is to format with heredoc to separate the SQL query from the code.
 
 **Link to work:**
+I haven't completed the work on the checkpoint yet so I won't commit until that's done. Here's [the Twitter post](https://twitter.com/johnmmweb/status/1031760152532201472).
 <br />
 
-### R1D16 20180820
+### R1D16 20180821
 #### freeCodeCamp
 
 **Today's Progress:**
