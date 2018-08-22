@@ -499,6 +499,42 @@ I haven't completed the work on the checkpoint yet so I won't commit until that'
 #### freeCodeCamp
 
 **Today's Progress:**
+Nothing for today.
+
+#### Bloc.io
+
+**Today's Progress:**
+Made more progress through this checkpoint.  Still not done because it is a longer checkpoint.
+
+**Thoughts/Notes:**
+- I hope this makes more sense tomorrow. Right now, the material is giving what seems like very basic information on the plan to implment the ActiveRecord framework replacment.
+
+**Link to work:**
+Checkpoint still isn't done.  No code pushed yet. See Twitter [post](https://twitter.com/johnmmweb/status/1032135103047032833).
+<br />
+
+### R1D17 20180822
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+<br />
+
+### R1D18 20180823
+#### freeCodeCamp
+
+**Today's Progress:**
 
 **Thoughts/Notes:**
 
