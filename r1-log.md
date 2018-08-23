@@ -517,18 +517,18 @@ Checkpoint still isn't done.  No code pushed yet. See Twitter [post](https://twi
 #### freeCodeCamp
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+None.
 
 #### Bloc.io
 
 **Today's Progress:**
+Still trying to figure out all this code I was given. It's supposed to be teaching me more about ActiveRecord.
 
 **Thoughts/Notes:**
+- There isn't a lot of explanation on the code I'm being given.  Trying to Google what things mean and understand it.
 
 **Link to work:**
+No code to push today. Here's [the Twitter post](https://twitter.com/johnmmweb/status/1032486713136799746).
 <br />
 
 ### R1D18 20180823
