@@ -507,7 +507,7 @@ Nothing for today.
 Made more progress through this checkpoint.  Still not done because it is a longer checkpoint.
 
 **Thoughts/Notes:**
-- I hope this makes more sense tomorrow. Right now, the material is giving what seems like very basic information on the plan to implment the ActiveRecord framework replacment.
+- I hope this makes more sense tomorrow. Right now, the material is giving what seems like very basic information on the plan to implement the ActiveRecord framework replacement.
 
 **Link to work:**
 Checkpoint still isn't done.  No code pushed yet. See Twitter [post](https://twitter.com/johnmmweb/status/1032135103047032833).
@@ -532,6 +532,66 @@ No code to push today. Here's [the Twitter post](https://twitter.com/johnmmweb/s
 <br />
 
 ### R1D18 20180823
+#### freeCodeCamp
+
+**Today's Progress:**
+No progress tonight.
+
+#### Bloc.io
+
+**Today's Progress:**
+Completed the checkpoint *Databases: Create an ORM*.  Started on the assignment. Read articles and watched videos on Ruby `super`, inheritance and even one on polymorphism.
+
+**Thoughts/Notes:**
+- lazy loading = It's not calculated until the first time it is needed.
+- > Lazy loading contrasts with another pattern, which would calculate @schema when the model object is initialized. This pattern is called [eager loading](https://stackoverflow.com/questions/1299374/what-is-eager-loading/1299381#1299381).
+- Learned about `super` and inheritance.
+
+Questions for my mentor:
+1. Why would you write something that was going to return a schema instead of data?
+2. Why would you use a heredoc.  Statement under picture of Terminator.
+3. What does this mean?
+> convert_keys takes an options hash and converts all the keys to string keys. This allows us to use either strings or symbols as hash keys. No matter which kind of keys are used, they're converted to string keys. This approach is similar to Rails'  HashWithIndifferentAccess.
+
+5. Why is the heredoc structured like this...
+```
+connection.execute(<<-SQL)[0][0]
+  SELECT COUNT(*) FROM #{table}
+SQL
+```
+...but also like this...
+```
+connection.execute <<-SQL
+  INSERT INTO #{table} (#{attributes.join ","})
+  VALUES (#{vals.join ","});
+SQL
+```
+
+**Link to work:**
+The link to my work on [*address-bloc-orm*](https://github.com/jmuldvp/address-bloc-orm/tree/address-setup).
+The linke to my work on [*bloc_record*](https://github.com/jmuldvp/bloc_record/tree/master).
+<br />
+
+
+### R1D19 20180824
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+<br />
+
+### R1D20 20180825
 #### freeCodeCamp
 
 **Today's Progress:**
