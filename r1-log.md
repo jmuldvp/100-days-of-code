@@ -594,13 +594,75 @@ Completed the *Databases: Create an ORM* checkpoint.
 
 - Also learned the terms eager, lazy and over-eager loading [here](https://stackoverflow.com/questions/1299374/what-is-eager-loading/1299381#1299381).
 
-
-
 **Link to work:**
 Here's my *bloc-record* [repo](https://github.com/jmuldvp/bloc_record/tree/cp2-assign).
 <br />
 
-### R1D20 20180825
+### R1D20 20180827
+#### freeCodeCamp
+
+**Today's Progress:**
+None.
+
+#### Bloc.io
+
+**Today's Progress:**
+- Almost got through the 3rd checkpoint of ORM but got stuck on some errors.
+
+**Thoughts/Notes:**
+- * is the splat operator. When used in the parameter section of a method like so..
+```
+def find(*ids)
+end
+```
+.. it means it can take any number of arguments.
+
+- Not sure if there are rules on when private methods should be used. Sent message to Rick.
+- Studied about Ruby zip [here](http://www.rubyguides.com/2017/10/array-zip-method/) and [here](https://github.com/jmuldvp/address-bloc-orm/tree/cp3).
+
+**Link to work:**
+[Here](https://github.com/jmuldvp/bloc_record/tree/cp3) and [here](https://github.com/jmuldvp/address-bloc-orm/tree/cp3).
+<br />
+
+
+### R1D21 20180828
+#### freeCodeCamp
+
+**Today's Progress:**
+Completed all of the FlexBox challenges.
+
+**Thoughts/Notes:**
+- `flex-wrap` does as it says..to wrap items when a space is too small.  The default setting/attribute is `nowrap`.
+  - Options for this is `nowrap`, `wrap`, `wrap-reverse`.
+- `flex-shrink` this allows an item to shrink if the flex container is too small. An example would be `flex-shrink: 3;` and `flex-shrink: 1;` where the one with 3 will shrink three times as fast as the one with 1.
+- The opposite of `flex-shrink` is `flex-grow`. Also if the number/setting is bigger it grows that much faster.
+- `flex-basis` specifies the initial size before CSS makes adjustments. If `auto` is used, it sizes items based on the content.
+- Using the flex shorthand property can set several at once for `flex-grow`, `flex-shrink` and `flex-basis`.
+>For example, flex: 1 0 10px; will set the item to flex-grow: 1;, flex-shrink: 0;, and flex-basis: 10px;.
+
+- The `order` property will does like it says..order the items accordingly. Ex. `order: 1;` in one div or container and `order: 2;` in another.
+- The `align-self` property allows you to adjust each items alignment individually instead of setting them all at once.
+>This is useful since other common adjustment techniques using the CSS properties `float`, `clear`, and `vertical-align` do not work on flex items.
+
+This property will override the `align-items` property.
+
+**Link to work:**
+No code to push. See [Twitter post](https://twitter.com/johnmmweb/status/1034651770029395970).
+
+#### Bloc.io
+
+**Today's Progress:**
+Still stuck on a checkpoint because the instructions are all that clear.  I keep getting an error about a path when trying to run `bundle exec ruby db/seed.rb`
+
+**Thoughts/Notes:**
+- Frustration is all I can say about the instructions I was given in creating a ruby GEM. They aren't clear and I'm not getting the right help.
+
+**Link to work:**
+No code to push tonight to GitHub.
+<br />
+
+
+### R1D22 20180829
 #### freeCodeCamp
 
 **Today's Progress:**
