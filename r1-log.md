@@ -666,6 +666,138 @@ No code to push tonight to GitHub.
 #### freeCodeCamp
 
 **Today's Progress:**
+Completed half of the CSS grid challenges.
+
+**Thoughts/Notes:**
+- Simply adding `disply: grid;` an HTML element into a grid container. The parent is referred to as the container and the children are call items.
+- After setting up the _grid_, create columns like so.. `grid-template-columns: 100px 100px 100px`.
+- To set the rows, one would use `grid-template-rows: 50px 50px;` as an example.
+- Size units that could be used are as follows..
+  - `fr` = Set the column/row to a fraction of the available space
+  - `auto` = sets column/row content automatically
+  - `%` = adjusts column/row to the percent width of it's container
+- Using `grid-column-gap: 20px;` will space the columns.
+- Same as above but for rows.. `grid-row-gap: 5px;`
+- `grid-gap` is the same as using the column and row declarations. `grid-gap: 5px;` will affect rows and columns. `grid-gap: 5px 10px` will gap the rows 5px and columns 10px.
+- `grid-column: 2 / 4;` will make a container take up the last 2 columns of a grid.
+- `grid-row: 2 / 4;` does the same thing but for rows.
+- `justify-self: center;` moves the content to the center. Other 2 options are `start` and `end`.
+- Just like `justify-self` moves things horizontally, `align-self` does the same thing vertically.
+
+**Link to work:**
+No code to push. Here's [the Twitter post]().
+
+#### Bloc.io
+
+**Today's Progress:**
+Completed the checkpoint material.  I had to change a bunch of `require`'s to `require_relative`'s and the code worked.
+
+**Thoughts/Notes:**
+- Really tough reading between the lines on assignment instructions on my school material.
+  - The first assignment is to add some errors and data validation.  I thought I had to use ActiveRecord `validates` function.  Instead I figured that I should compare the data input to a regex for a phone number and an email address. Valid regex for phone and email..
+  ```
+  VALID_PHONE_REGEX = /\A(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}\z/
+  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
+  ```
+  - I get the high level concept of `method_missing` but still haven't been able to find a good example on how to use it.
+    - Found a good example [here](https://technicalpickles.com/posts/using-method_missing-and-respond_to-to-create-dynamic-methods).  Just having a hard time trying to figure out how to make it work with my assignment. Here's the code I'm going to try and implement in my assignment..
+    ```Ruby
+    class LegislatorDynamicFinderMatch
+      attr_accessor :attribute
+      def initialize(method_sym)
+        if method_sym.to_s =~ /^find_by_(.*)$/
+          @attribute = $1.to_sym
+        end
+      end
+
+      def match?
+        @attribute != nil
+      end
+    end
+
+    class Legislator    
+      def self.method_missing(method_sym, *arguments, &block)
+        match = LegislatorDynamicFinderMatch.new(method_sym)
+        if match.match?
+          define_dynamic_finder(method_sym, match.attribute)
+          send(method_sym, arguments.first)
+        else
+          super
+        end
+      end
+
+      protected
+
+      def self.define_dynamic_finder(finder, attribute)
+        class_eval <<-RUBY
+          def self.#{finder}(#{attribute})        # def self.find_by_first_name(first_name)
+            find(:#{attribute} => #{attribute})   #   find(:first_name => first_name)
+          end                                     # end
+        RUBY
+      end
+    end
+    ```
+    - Not sure why I keep seeing a lot of code turning things into symbols. Gonna have to read up on why symbols are so good to use.
+
+**Link to work:**
+My [link to the checkpoint code](https://github.com/jmuldvp/address-bloc-orm/tree/cp3).
+<br />
+
+
+### R1D23 20180830
+#### freeCodeCamp
+
+**Today's Progress:**
+No progress today.
+
+#### Bloc.io
+
+**Today's Progress:**
+Completed step 2 on the assignment for `method_missing`.
+
+**Thoughts/Notes:**
+- Found out using `class_eval` is slow. Rick showed me how to accomplish this in 2 lines.
+- Stuck on step 3 of the assignment now.  I'm not sure how to implement `find_each` with `batch_size` support all in the same method where both of these are supposed to work..
+
+```Ruby
+Contact.find_each do |contact|
+  contact.check_if_naughty_or_nice
+end
+```
+..or..
+```Ruby
+Contact.find_each(start: 2000, batch_size: 2000) do |contact|
+  contact.check_if_naughty_or_nice
+end
+```
+..are supposed to work with one method.
+
+**Link to work:**
+No code to push tonight. [Here is the Twitter post](https://twitter.com/johnmmweb/status/1035380245484859392).
+<br />
+
+### R1D24 20180831
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+<br />
+
+### R1D25 20180901
+#### freeCodeCamp
+
+**Today's Progress:**
 
 **Thoughts/Notes:**
 
