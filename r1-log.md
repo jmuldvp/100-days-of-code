@@ -776,23 +776,25 @@ end
 No code to push tonight. [Here is the Twitter post](https://twitter.com/johnmmweb/status/1035380245484859392).
 <br />
 
-### R1D24 20180831
+### R1D24 20180904
 #### freeCodeCamp
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+None tonight.
 
 #### Bloc.io
 
 **Today's Progress:**
+Progress was very slow going. Trying to implement `find_each` with support of `batch_size` and `find_in_batches`.  The documentation really frustrates me because it isn't detailed and I feel the documentation should be spot on for a school that I paid a lot of money to.  I know documentation isn't going to exist or be good in the outside world but I feel that if someone is going to take that much money from me for me to learn, their documentation should be flawless so I don't have to try and read between the lines.  I almost feel like I paid a bunch of money for someone to tell me to use Google whenever I get stuck.
 
 **Thoughts/Notes:**
+Plan of attack so far..
+- Going to create separate methods for `find_each` and `find_in_batches`. It doesn't make sense that I would put `find_in_batches` within the `find_each` method because I don't know how I'd call it given the examples I was given in the assignment.
 
 **Link to work:**
+No code to push tonight. Here's [my Twitter post](https://twitter.com/johnmmweb/status/1037195270554116096).
 <br />
+
 
 ### R1D25 20180901
 #### freeCodeCamp
