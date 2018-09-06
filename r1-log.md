@@ -796,7 +796,46 @@ No code to push tonight. Here's [my Twitter post](https://twitter.com/johnmmweb/
 <br />
 
 
-### R1D25 20180901
+### R1D25 20180905
+#### freeCodeCamp
+
+**Today's Progress:**
+None.
+
+#### SoloLearn
+Acquired 290 XP on SoloLearn.
+
+#### Bloc.io
+
+**Today's Progress:**
+Still no progress on this. I can't get a straight answer to my questions from the technical coaches. Meeting with my instructor tomorrow night so hopefully I can get past it then.  I did perform Google searches but nothing helped.
+
+**Thoughts/Notes:**
+- Note to self: don't ever try and explain programming like this Bloc material does. People won't understand it.
+
+**Link to work:**
+No new code. Here's [my Twitter post](https://twitter.com/johnmmweb/status/1037585314871529472).
+<br />
+
+### R1D26 20180906
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+<br />
+
+### R1D27 20180907
 #### freeCodeCamp
 
 **Today's Progress:**
