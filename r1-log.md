@@ -818,19 +818,63 @@ No new code. Here's [my Twitter post](https://twitter.com/johnmmweb/status/10375
 <br />
 
 ### R1D26 20180906
+#### SoloLearn
+I increased my XP to 337 by working on HTML, SQL and Ruby exercises.
+
 #### freeCodeCamp
 
 **Today's Progress:**
+Completed the CSS Grid challenges.
 
 **Thoughts/Notes:**
+- `justify-items: center;` will align all items in the container at once vs the way that could be used to align items individually.
+- `align-items` property on a grid container will set the vertical alignment.
+- `grid-template-areas:` is used for grouping cells. Here's an example..
+```
+grid-template-areas:
+  "header header header"
+  "advert content content"
+  "footer footer footer";
+```
+If you use a period . it gives the indication that the space is blank.
+- `grid-area` will place the cell in a named grid area like `header` or `footer`.
+>- If your grid doesn't have an areas template to reference, you can create an area on the fly for an item to be placed. `item1 { grid-area: 1/1/2/4; }`  Here is the cheat sheet for the numbers mentioned..
+>grid-area: horizontal line to start at / vertical line to start at / horizontal line to end at / vertical line to end at;
 
+- If you want to setup a grid with many rows or columns, instead of typing the code over and over again, you could use `repeat`. This creates 100 rows 50px tall... `grid-template-rows: repeat(100, 50px);` This `grid-template-columns: 1fr 1fr 1fr;` translates to this `grid-template-columns: repeat(3, 1fr);`
+- `minmax` is used to limit the size of items. This example `grid-template-columns: 100px minmax(50px, 200px);` sets the size of the columns 100px wide. It also limits the size to 50px on the small end and 200px on the large end.
+- The repeat function comes with an option called auto-fill.
+>When the container changes size, this setup keeps inserting 60px columns and stretching them until it can insert another one.
+Note
+If your container can't fit all your items on one row, it will move them down to a new one.
+
+> - auto-fit works almost identically to auto-fill. The only difference is that when the container's size exceeds the size of all the items combined, auto-fill keeps inserting empty rows or columns and pushes your items to the side, while auto-fit collapses those empty rows or columns and stretches your items to fit the size of the container.
+
+- Making a layout responsive by using `@media`...
+```
+@media (min-width: 400px){
+  .container{
+    /* change the code below this line */
+
+    grid-template-areas:
+      "header header"
+      "advert content"
+      "footer footer";
+
+  /* change the code above this line */
+  }
+}
+```
 **Link to work:**
+N/A Here's [the Twitter post](https://twitter.com/johnmmweb/status/1037936489831661569).
 
 #### Bloc.io
 
 **Today's Progress:**
+Met with my mentor tonight. I may have the `find_each` and `find_in_batches` assignment solved.  I'll find out for sure once it's graded.
 
 **Thoughts/Notes:**
+- Rick gave more information on using `yield`. He even stated that the documentation I was given to do the assignment was confusing because it was even confusing for him.
 
 **Link to work:**
 <br />
