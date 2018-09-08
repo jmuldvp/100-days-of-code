@@ -883,10 +883,50 @@ Met with my mentor tonight. I may have the `find_each` and `find_in_batches` ass
 #### freeCodeCamp
 
 **Today's Progress:**
+Started on the tribute page on codepen.
+
+**Thoughts/Notes:**
+- The instructions are pretty detailed which is good. I'm hoping I can spend a little more time on it than just the basics.
+
+**Link to work:**
+Here's [what I have so far](https://codepen.io/jmuldvp/pen/vJpgEO).
+Here's [the Twitter post](https://twitter.com/johnmmweb/status/1038296998850396160).
+
+#### SoloLearn
+
+**Today's Progress:**
+Only worked on a little SQL. Up to 342 XP.
+
+#### Bloc.io
+
+**Today's Progress:**
+I think I finished checkpoint 3 assignment...after 2 weeks of struggling.
+
+**Thoughts/Notes:**
+- I'm going to have to go back and study this method a little more...
+```ruby
+def rows_to_array(rows)
+  rows.map { |row| new(Hash[columns.zip(row)])}
+end
+```
+I'm still not sure I can describe what `zip` does.
+
+**Link to work:**
+Here's my [branch](https://github.com/jmuldvp/bloc_record/tree/cp3-assign).
+<br />
+
+### R1D28 20180908
+#### freeCodeCamp
+
+**Today's Progress:**
 
 **Thoughts/Notes:**
 
 **Link to work:**
+
+#### freeCodeCamp
+
+**Today's Progress:**
 
 #### Bloc.io
 
@@ -895,4 +935,3 @@ Met with my mentor tonight. I may have the `find_each` and `find_in_batches` ass
 **Thoughts/Notes:**
 
 **Link to work:**
-<br />
