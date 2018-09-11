@@ -915,7 +915,48 @@ I'm still not sure I can describe what `zip` does.
 Here's my [branch](https://github.com/jmuldvp/bloc_record/tree/cp3-assign).
 <br />
 
-### R1D28 20180908
+### R1D28 20180910
+#### freeCodeCamp
+
+**Today's Progress:**
+None today.
+
+#### SoloLearn
+
+**Today's Progress:**
+None today.
+
+#### Bloc.io
+
+**Today's Progress:**
+Almost completed checkpoint 12 of the SQL section. I completed over half of the assignment.
+
+**Thoughts/Notes:**
+- Subqueries in the `FROM` clause are *inline views*.
+>- Subqueries in the `WHERE` clause can be used with either a row constructor or an expression.
+
+- Row constructor - an expression that builds a row using values for it's member fields.
+>- When using `IN`, `NOT IN`, `ANY`, `SOME`, or `ALL`, the subquery must return data in only 1 column.
+
+>- `EXISTS`: If the subquery returns at least one row, the `EXISTS` returns `true`; otherwise, it returns `false`.
+
+>- `NOT EXISTS`: If the subquery does not return at least one row, the `EXISTS` returns  `true`; otherwise, it returns `false`.
+
+>- `IN`: The result of IN is `true` if any matching subquery row is found; otherwise, the result is `false` if no matching row is found. If the subquery returns no rows, the result is also `false`; however, if the left-hand side evalutes to NULL, the result will be  `NULL`.
+
+>- `NOT IN`: When using `NOT IN`, the subquery must return exactly 0 matching rows. Each department is allocated a certain budget annually for salary.
+
+>- `ANY` & `SOME`: `ANY` and `SOME` are equivalent.
+
+They are also pretty self explanatory
+- `ALL`: For `ALL` to return `true` *either* every result returned by the subquery must match the given condition or the subquery must return no rows.
+- Subqueries can be more readable than `join`'s and they can eliminate duplication.
+
+**Link to work:**
+The assignment was all SQL queries. No code to push.  Here's [the Twitter post](https://twitter.com/johnmmweb/status/1039403539917729792).
+
+
+### R1D29 20180911
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -924,7 +965,28 @@ Here's my [branch](https://github.com/jmuldvp/bloc_record/tree/cp3-assign).
 
 **Link to work:**
 
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+### R1D30 20180912
 #### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
 
 **Today's Progress:**
 
