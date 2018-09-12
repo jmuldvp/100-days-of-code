@@ -960,22 +960,23 @@ The assignment was all SQL queries. No code to push.  Here's [the Twitter post](
 #### freeCodeCamp
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+I'm hoping to put some more time into this tomorrow. None today.
 
 #### SoloLearn
 
 **Today's Progress:**
+- Knocked out some more of the SQL fundamentals section and a few Ruby exercises.
 
 #### Bloc.io
 
 **Today's Progress:**
+Completed checkpoint 12. Got a 4/6 on the quiz. There were questions in that quiz covering material that wasn't in the checkpoint.
 
 **Thoughts/Notes:**
+- It was good to learn some more Postgres syntax.
 
 **Link to work:**
+Here [is my push to GitHub](https://github.com/jmuldvp/bloc-rdbf/blob/master/cp12/CP12-answers.md).
 
 ### R1D30 20180912
 #### freeCodeCamp
