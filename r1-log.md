@@ -982,6 +982,48 @@ Here [is my push to GitHub](https://github.com/jmuldvp/bloc-rdbf/blob/master/cp1
 #### freeCodeCamp
 
 **Today's Progress:**
+None.
+
+#### SoloLearn
+
+**Today's Progress:**
+Covered more HTML. Up to 365XP.
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+- Very good [reference](https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly) for determining complexity.
+- Started the assignment.
+
+**Link to work:**
+
+### R1D31 20180913
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+### R1D32 20180914
+#### freeCodeCamp
+
+**Today's Progress:**
 
 **Thoughts/Notes:**
 
