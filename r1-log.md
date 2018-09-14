@@ -992,6 +992,7 @@ Covered more HTML. Up to 365XP.
 #### Bloc.io
 
 **Today's Progress:**
+Completed the checkpoint material.
 
 **Thoughts/Notes:**
 - Very good [reference](https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly) for determining complexity.
@@ -1000,6 +1001,45 @@ Covered more HTML. Up to 365XP.
 **Link to work:**
 
 ### R1D31 20180913
+#### freeCodeCamp
+
+**Today's Progress:**
+I'm probably going to put this on the back burner for awhile...maybe.
+
+#### SoloLearn
+
+**Today's Progress:**
+Reviewed HTML colors and the `frame` tag...which is not supported in HTML5.  Seems like CSS-Grid and FlexBox covers that now.
+
+#### Bloc.io
+
+**Today's Progress:**
+Completed the assignment on the 4th checkpoint on algorithms and complexity. Started on the main part of checkpoint 5.
+
+**Thoughts/Notes:**
+- Under the heading of Linear Time Complexity: O(n), here's some code that I typed in..
+
+```ruby
+# #1
+def linear_search(collection, value)
+  # #2
+  for i in collection
+    return i if i == value
+  end
+end
+```
+
+>At #1, we see the method definition, this line of code does not affect the complexity.
+
+>At #2, we iterate over `collection`. This is the meat of linear search. Let's think about this loop in the context of our worst case scenario: in the worst case the item we're searching for, `value` will be at the `collection.length-1` index. So, our algorithm's worst case performance is O(`collection.length - 1`), but we really don't care about the -1 so we can drop it. Thus, our algorithm is O(`collection.length`), but `collection.length` is really just another way of expressing n, an arbitrary integer. The complexity of linear search is therefore *O(n)*.
+
+- Under the heading of Logarithmic Time Complexity: O(log n), I typed in some given code for a binary search.
+- Used a `while` loop to divide and conquer for a binary search.
+
+**Link to work:**
+Here's [my work for checkpoint 4](https://github.com/jmuldvp/bloc-algorithms-complexity/blob/master/cp4/intro_complexity_answers.md).
+
+### R1D32 20180914
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -1020,7 +1060,52 @@ Covered more HTML. Up to 365XP.
 
 **Link to work:**
 
-### R1D32 20180914
+
+### R1D33 20180915
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D34 20180916
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D35 20180917
 #### freeCodeCamp
 
 **Today's Progress:**
