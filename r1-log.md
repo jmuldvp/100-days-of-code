@@ -1039,7 +1039,29 @@ end
 **Link to work:**
 Here's [my work for checkpoint 4](https://github.com/jmuldvp/bloc-algorithms-complexity/blob/master/cp4/intro_complexity_answers.md).
 
-### R1D32 20180914
+### R1D32 20180918
+#### freeCodeCamp
+
+**Today's Progress:**
+None.
+
+#### SoloLearn
+
+**Today's Progress:**
+None.
+
+#### Bloc.io
+
+**Today's Progress:**
+Completed checkpoint material and now I'm stuck on the assignment. I'm trying to determine the Big-O notation on a numbers algorithm.
+
+**Thoughts/Notes:**
+- Trying to figure out how many iterations an algorithm goes through before completion.
+
+**Link to work:**
+No code to push tonight.
+
+### R1D33 20180919
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -1061,7 +1083,7 @@ Here's [my work for checkpoint 4](https://github.com/jmuldvp/bloc-algorithms-com
 **Link to work:**
 
 
-### R1D33 20180915
+### R1D34 20180920
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -1083,29 +1105,7 @@ Here's [my work for checkpoint 4](https://github.com/jmuldvp/bloc-algorithms-com
 **Link to work:**
 
 
-### R1D34 20180916
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
-#### Bloc.io
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-
-### R1D35 20180917
+### R1D35 20180921
 #### freeCodeCamp
 
 **Today's Progress:**
