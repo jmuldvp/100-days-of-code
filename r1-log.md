@@ -1065,45 +1065,39 @@ No code to push tonight.
 #### freeCodeCamp
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+None.
 
 #### SoloLearn
 
 **Today's Progress:**
+None.
 
 #### Bloc.io
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
+Completed a checkpoint assignment.
 
 **Link to work:**
-
+Here's the [link](https://github.com/jmuldvp/bloc-algorithms-complexity/tree/cp5-assign).
 
 ### R1D34 20180920
 #### freeCodeCamp
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+None.
 
 #### SoloLearn
 
 **Today's Progress:**
+None.
 
 #### Bloc.io
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
+Revisited checkpoing 4 and completed it. I misunderstood the instruction.
 
 **Link to work:**
-
+[Here is my work](https://github.com/jmuldvp/bloc-algorithms-complexity/tree/cp4-assign/cp4).
 
 ### R1D35 20180921
 #### freeCodeCamp
