@@ -1099,7 +1099,57 @@ Revisited checkpoing 4 and completed it. I misunderstood the instruction.
 **Link to work:**
 [Here is my work](https://github.com/jmuldvp/bloc-algorithms-complexity/tree/cp4-assign/cp4).
 
-### R1D35 20180921
+### R1D35 20180926
+#### freeCodeCamp
+
+**Today's Progress:**
+None today.
+
+#### SoloLearn
+
+**Today's Progress:**
+None today.
+
+#### Bloc.io
+
+**Today's Progress:**
+I may have finished another assignment.  I have to go back through and review a few spots that I'm still a bit shady on.
+
+**Thoughts/Notes:**
+- Using hashing functions aren't as easy as I thought it was going to be.
+
+**Link to work:**
+I have no pushed the final code for this assignment.  I'll do that tomorrow.
+
+### R1D36 20181001
+#### freeCodeCamp
+
+**Today's Progress:**
+None.  Been concentrating on my material for Bloc.io
+
+#### SoloLearn
+
+**Today's Progress:**
+Made progress in HTML, SQL, Ruby and CSS.  Learned that I can use a case statement like this...
+```ruby
+case 1,2,3
+```
+..when I want to check for those specific numbers. As far as ranges are concerned, when there are 2 dots, it includes the first and last number.  When there are 3 dots, the first number the number before the last are used.  Also, I knew about `break`, I forgot about `next` and I didn't know about `redo` inside loops.
+
+I knew all the topics discussed in the SQL section.
+
+#### Bloc.io
+
+**Today's Progress:**
+Watched video of my meeting last week with mentor.  I think I'm finished but don't feel comfortable moving on just yet.
+
+**Thoughts/Notes:**
+- Hashes make a little more sense but still not entirely clear. Going to look for video's and more documentation.
+
+**Link to work:**
+Pushed code [here](https://github.com/jmuldvp/bloc-data-structures).
+
+### R1D37 20181002
 #### freeCodeCamp
 
 **Today's Progress:**
