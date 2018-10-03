@@ -1153,6 +1153,28 @@ Pushed code [here](https://github.com/jmuldvp/bloc-data-structures).
 #### freeCodeCamp
 
 **Today's Progress:**
+None.
+
+#### SoloLearn
+
+**Today's Progress:**
+None.
+
+#### Bloc.io
+
+**Today's Progress:**
+Learned about a few efficient algorithm changes that could be made in loops.
+
+**Thoughts/Notes:**
+- Learned more about efficiency and the thoughts of even the simplest changes can save many CPU cycles if the logic is implemented into an application that runs it all day.
+
+**Link to work:**
+None today. Looked at and pondered about algorithms and how to make things go faster or cleaner.
+
+### R1D38 20181003
+#### freeCodeCamp
+
+**Today's Progress:**
 
 **Thoughts/Notes:**
 
@@ -1161,6 +1183,28 @@ Pushed code [here](https://github.com/jmuldvp/bloc-data-structures).
 #### SoloLearn
 
 **Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+### R1D39 20181004
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
 
 #### Bloc.io
 
