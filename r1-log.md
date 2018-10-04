@@ -1171,26 +1171,62 @@ Learned about a few efficient algorithm changes that could be made in loops.
 **Link to work:**
 None today. Looked at and pondered about algorithms and how to make things go faster or cleaner.
 
+
 ### R1D38 20181003
 #### freeCodeCamp
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+None.
 
 #### SoloLearn
 
 **Today's Progress:**
+- 7 new content models in HTML5
+  - Metadata Content that sets up the presentation or behavior of the rest of the content. <base>, <link>, <meta>, <noscript>, <script>, <style>, <title>
+  - Embedded This imports other resources into the doc.. <audio>, <video>, <canvas>, <iframe>, <img>, <math>, <object>, <svg>
+  - Interactive Meant for user interaction. <a>, <audio>, <video>, <button>, <details>, <embed>, <iframe>, <img>, <input>, <label>, <object>, <select>, <textarea>
+  - Heading Header section.  <h1> thru <h6> and then <hgroup>
+  - Phrasing Has a number of inline elements in common with HTML4 such as <img>, <span>, <strong>, <label>, <br />, <small>, <sub> and more.
+  - Flow This contains the majority of HTML5 elements that would be in the normal flow of the document.
+  - Sectioning Defines scope of headings, content, navigation and footers. <article>, <aside>, <nav>, <section>
+- Can remove items from one array using another array like so...
+```ruby
+a = [1, 2, 3, 4, 5]
+b = [2, 4, 5, 6]
+
+res = a - b
+print res #[1, 3]
+```
+- Can also duplicate array data.. *For example: [1, 2, 3] * 3 results in [1, 2, 3, 1, 2, 3, 1, 2, 3]*
+- Can also compare 2 arrays and print similar values...
+```ruby
+a = [2, 3, 7, 8]
+b = [2, 7, 9]
+
+print a & b # [2, 7]
+```
+- Using the | operator, one could do this to combine arrays like a union all statement in SQL..
+```ruby
+a = [2, 3, 7, 8]
+b = [2, 7, 9]
+
+print a | b # [2, 3, 7, 8, 9]
+```
+- Using `.reverse` will reverse the values of an array. Using the `!` symbol will permanently change the value of the variable.
 
 #### Bloc.io
 
 **Today's Progress:**
+Almost finished with another checkpoint.  Hopefully I'll be able to finish it up tomorrow.
 
 **Thoughts/Notes:**
+- Code optimization advice...
+> Code can be optimized by pruning unused statements, assignments, or adding shortcuts such as ending a loop early if possible. Although pruning bad code _will improve performance_, it won't necessarily _improve complexity_.
+
+- I almost feel like using `.flatten` in my second assignment is cheating but I'm glad I found out about it.
 
 **Link to work:**
+I did not push my final code tonight.
 
 ### R1D39 20181004
 #### freeCodeCamp
