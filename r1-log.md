@@ -1232,6 +1232,89 @@ I did not push my final code tonight.
 #### freeCodeCamp
 
 **Today's Progress:**
+None today.
+
+#### SoloLearn
+
+**Today's Progress:**
+- SQL data types..
+  - Numberic = `int`, `float`, `double`
+  - Date and Time = `date`, `datetime`, `timestamp`, `time`
+  - String type = `char`, `varchar`, `blob`, `text`
+- UNIQUE = Does not allow to insert a duplicate value in a column. The UNIQUE constraint maintains the uniqueness of a column in a table. More than one UNIQUE column can be used in a table.
+- CHECK = Determines whether the value is valid or not from a logical expression.
+```sql
+UserID int NOT NULL AUTO_INCREMENT,
+PRIMARY KEY (UserID)
+```
+
+```sql
+CREATE TABLE Users (
+id int NOT NULL AUTO_INCREMENT,
+username varchar(40) NOT NULL,
+password varchar(10) NOT NULL,
+PRIMARY KEY(id)
+);
+```
+- `Alter Table` command is used to alter a tables columns by adding, removing or changing data types.
+```sql
+ALTER TABLE People ADD DateOfBirth date;
+```
+You can also use `DROP` instead of `ADD`. One could also change the name of a column with this command...
+```sql
+ALTER TABLE People CHANGE FirstName name varchar(100);
+```
+
+- To rename a table... `RENAME TABLE People TO Users;`
+- To create a view...
+```sql
+CREATE VIEW view_name AS
+SELECT column_name(s)
+FROM table_name
+WHERE condition;
+```
+- Completed SQL Fundamentals course.
+
+#### Bloc.io
+
+**Today's Progress:**
+Completed checkpoint 6. Not sure if I did number 3 of the assignment correctly since the instructions weren't all that clear.
+
+**Thoughts/Notes:**
+- To optimize code, remove unnecessary loops.
+- `do each` is more expensive than using an `if` to remove unwanted/invalid input.
+- If I can remove any unnecessary comparison(s), that would be an optimization.
+
+**Link to work:**
+Pushed to Github.
+
+### R1D40 20181005
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D41 20181006
+#### freeCodeCamp
+
+**Today's Progress:**
 
 **Thoughts/Notes:**
 
