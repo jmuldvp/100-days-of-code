@@ -1288,7 +1288,35 @@ Completed checkpoint 6. Not sure if I did number 3 of the assignment correctly s
 **Link to work:**
 Pushed to Github.
 
-### R1D40 20181005
+### R1D40 20181009
+#### freeCodeCamp
+
+**Today's Progress:**
+None.
+
+#### SoloLearn
+
+**Today's Progress:**
+Completed the HTML course and obtained certificate. Worked on the Ruby and JavaScript courses.  I did a lot of this today along with looking at JavaScript blogs to prep for a test I took.
+
+#### Bloc.io
+
+**Today's Progress:**
+Completed reading through a checkpoint on data structures learning more about hashes, collisions etc. Still need to take some notes on Linear and Quadratic probing along with Double Hashing. Then need to look more into Cuckoo Hashing.
+
+**Thoughts/Notes:**
+- Separate Chaining = this helps resolve collisions. This process tacks on colliding entries to the same location in the array and refers to that same location as a bucket. In order to tack on an entry to another using a linked list.
+- Load Factor = This is an actual formula.  You take the number of entries and divide by the number of buckets which gives you a decimal number. A high load factor > .7 usually means slower performance.
+- Open Addressing = When a collision occurs, this uses one of three approaches to resolve it. If it can't find an empty location, it increases the size of the hash.
+  - Linear Probing = This looks for the next available bucket one at a time until it finds one.
+  - Quadratic Probing
+  - Double hashing
+
+**Link to work:**
+No code to push tonight. There was no code to try out in the checkpoint. Spent most of my night reading over JavaScript material to prep for a test I took.
+
+
+### R1D41 20181010
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -1311,7 +1339,30 @@ Pushed to Github.
 **Link to work:**
 
 
-### R1D41 20181006
+### R1D42 20181011
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D43 20181012
 #### freeCodeCamp
 
 **Today's Progress:**
