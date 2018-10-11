@@ -1320,24 +1320,23 @@ No code to push tonight. There was no code to try out in the checkpoint. Spent m
 #### freeCodeCamp
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+None.
 
 #### SoloLearn
 
 **Today's Progress:**
-
+Made more pregression on the Ruby track.
 
 #### Bloc.io
 
 **Today's Progress:**
+Reread some of the checkpoint material trying to make the concepts sink deeper.
 
 **Thoughts/Notes:**
+None.
 
 **Link to work:**
-
+No code to push again today.
 
 ### R1D42 20181011
 #### freeCodeCamp
