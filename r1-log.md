@@ -1342,6 +1342,26 @@ No code to push again today.
 #### freeCodeCamp
 
 **Today's Progress:**
+None.
+
+#### SoloLearn
+
+**Today's Progress:**
+Made more progress in Ruby.  Learned more about Accessor Methods and Class Methods and variables. I also learned how I can use `to_s` to modify a `puts` statement/line.
+
+#### Bloc.io
+
+**Today's Progress:**
+Re-read some of the checkpoint material again and started on the assignment.
+
+**Link to work:**
+No code pushed.
+
+
+### R1D43 20181012
+#### freeCodeCamp
+
+**Today's Progress:**
 
 **Thoughts/Notes:**
 
@@ -1361,7 +1381,30 @@ No code to push again today.
 **Link to work:**
 
 
-### R1D43 20181012
+### R1D44 20181013
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D45 20181014
 #### freeCodeCamp
 
 **Today's Progress:**
