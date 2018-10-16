@@ -1358,7 +1358,24 @@ Re-read some of the checkpoint material again and started on the assignment.
 No code pushed.
 
 
-### R1D43 20181012
+### R1D43 20181015
+#### freeCodeCamp
+
+**Today's Progress:**
+None.
+
+#### SoloLearn
+
+**Today's Progress:**
+Some of the Ruby exercises.
+
+#### Bloc.io
+
+**Today's Progress:**
+Got 2 tests to pass on the open_addressing part of the assignment.
+
+
+### R1D44 20181016
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -1381,30 +1398,7 @@ No code pushed.
 **Link to work:**
 
 
-### R1D44 20181013
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
-
-#### Bloc.io
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-
-### R1D45 20181014
+### R1D45 20181017
 #### freeCodeCamp
 
 **Today's Progress:**
