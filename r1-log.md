@@ -1325,7 +1325,7 @@ None.
 #### SoloLearn
 
 **Today's Progress:**
-Made more pregression on the Ruby track.
+Made more progression on the Ruby track.
 
 #### Bloc.io
 
@@ -1373,9 +1373,32 @@ Some of the Ruby exercises.
 
 **Today's Progress:**
 Got 2 tests to pass on the open_addressing part of the assignment.
+c
+
+### R1D44 20181023
+#### freeCodeCamp
+
+**Today's Progress:**
+None
+
+#### SoloLearn
+
+**Today's Progress:**
+None
+
+#### Bloc.io
+
+**Today's Progress:**
+Completed an open addressing hash exercise and started on the separate chaining exercise.
+
+**Thoughts/Notes:**
+I had to put together a nested hash of sorts as a coding exercise.
+
+**Link to work:**
+Even though I didn't complete the exercise, I pushed what I had as a backup.
 
 
-### R1D44 20181016
+### R1D45 20181024
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -1398,7 +1421,53 @@ Got 2 tests to pass on the open_addressing part of the assignment.
 **Link to work:**
 
 
-### R1D45 20181017
+### R1D46 20181025
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D47 20181026
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D48 20181027
 #### freeCodeCamp
 
 **Today's Progress:**
