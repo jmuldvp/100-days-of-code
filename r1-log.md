@@ -1182,14 +1182,15 @@ None.
 
 **Today's Progress:**
 - 7 new content models in HTML5
-  - Metadata Content that sets up the presentation or behavior of the rest of the content. <base>, <link>, <meta>, <noscript>, <script>, <style>, <title>
-  - Embedded This imports other resources into the doc.. <audio>, <video>, <canvas>, <iframe>, <img>, <math>, <object>, <svg>
-  - Interactive Meant for user interaction. <a>, <audio>, <video>, <button>, <details>, <embed>, <iframe>, <img>, <input>, <label>, <object>, <select>, <textarea>
-  - Heading Header section.  <h1> thru <h6> and then <hgroup>
-  - Phrasing Has a number of inline elements in common with HTML4 such as <img>, <span>, <strong>, <label>, <br />, <small>, <sub> and more.
+  - Metadata Content that sets up the presentation or behavior of the rest of the content. `<base>, <link>, <meta>, <noscript>, <script>, <style>, <title>`
+  - Embedded This imports other resources into the doc.. `<audio>, <video>, <canvas>, <iframe>, <img>, <math>, <object>, <svg>`
+  - Interactive Meant for user interaction. `<a>, <audio>, <video>, <button>, <details>, <embed>, <iframe>, <img>, <input>, <label>, <object>, <select>, <textarea>`
+  - Heading Header section.  `<h1> thru <h6> and then <hgroup>`
+  - Phrasing Has a number of inline elements in common with HTML4 such as `<img>, <span>, <strong>, <label>, <br />, <small>, <sub>` and more.
   - Flow This contains the majority of HTML5 elements that would be in the normal flow of the document.
-  - Sectioning Defines scope of headings, content, navigation and footers. <article>, <aside>, <nav>, <section>
+  - Sectioning Defines scope of headings, content, navigation and footers. `<article>, <aside>, <nav>, <section>`
 - Can remove items from one array using another array like so...
+
 ```ruby
 a = [1, 2, 3, 4, 5]
 b = [2, 4, 5, 6]
@@ -1402,19 +1403,17 @@ Even though I didn't complete the exercise, I pushed what I had as a backup.
 #### freeCodeCamp
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+None. I'm coming back to this at some point.
 
 #### SoloLearn
 
 **Today's Progress:**
-
+None.
 
 #### Bloc.io
 
 **Today's Progress:**
+Completed the linked_list.rb file for the separate_chaining exercise.
 
 **Thoughts/Notes:**
 
