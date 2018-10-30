@@ -1415,12 +1415,44 @@ None.
 **Today's Progress:**
 Completed the linked_list.rb file for the separate_chaining exercise.
 
+
+
+### R1D46 20181029
+#### freeCodeCamp
+
+**Today's Progress:**
+None.
+
+#### SoloLearn
+
+**Today's Progress:**
+Made more progress with the Ruby section.
+
+#### Bloc.io
+
+**Today's Progress:**
+Completed the second hashing assignment (Checkpoint 5) where I learned more about hashing functions. Started on the last checkpoint for algorithms.
+
 **Thoughts/Notes:**
+> - Algorithms that have Big-O of polynomial time or less are referred to as tractable.
+> - An algorithm is said to be of polynomial time (or tractable) if its running time is upper bounded by a polynomial expression in the size of the input for the algorithm. - [Wikipedia](https://en.wikipedia.org/w/index.php?title=Cobham%27s_thesis&redirect=no)
+
+- Famous polynomial time algorithms...
+  - Breadth First search
+  - Depth First Search
+  - Cocktail Sort
+  - Gnome Sort
+  - Comb Sort
+  - Dijkstra's Algorithm
+> - In computer science, a hard problem is defined as a problem for which there is no known solution that has a Big-O with less than or equal to polynomial time. These sets of problems are called intractable or non-polynomial time problems.
+
+- Intractable problems are referred to as NP Hard.
 
 **Link to work:**
+Here's my [submission](https://github.com/jmuldvp/bloc-data-structures/tree/master/05-hashes-part-2)
 
 
-### R1D46 20181025
+### R1D47 20181030
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -1443,30 +1475,7 @@ Completed the linked_list.rb file for the separate_chaining exercise.
 **Link to work:**
 
 
-### R1D47 20181026
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
-
-#### Bloc.io
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-
-### R1D48 20181027
+### R1D48 20181031
 #### freeCodeCamp
 
 **Today's Progress:**
