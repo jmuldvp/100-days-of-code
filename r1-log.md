@@ -1456,6 +1456,95 @@ Here's my [submission](https://github.com/jmuldvp/bloc-data-structures/tree/mast
 #### freeCodeCamp
 
 **Today's Progress:**
+None.
+
+#### SoloLearn
+
+**Today's Progress:**
+- Modules should start with a capital letter.
+- An example of a "mix"...
+```ruby
+module Flyable
+  def fly
+    puts "I'm flying!"
+  end
+end
+
+class Vehicle
+end
+
+class Car < Vehicle
+end
+
+class Jet < Vehicle
+  include Flyable
+end
+
+class Plane < Vehicle
+  include Flyable
+end
+
+ob = Jet.new
+ob.fly
+```
+
+- Classes can only inherit from one other class.  But one class can inherit from multiple modules like so...
+```ruby
+class Human
+  include Walkable
+  include Speakable
+  include Runnable
+end
+```
+
+- If it's an "is-a" relationship, choose class inheritance. If it's a "has-a" relationship, choose modules. Example: a plane "is a" vehicle; a plane "has an" ability to fly.
+- You cannot instantiate modules (i.e., an object cannot be created from a module).
+Modules are used only for grouping common methods together.
+Classes are about objects; modules are about methods.
+- `Comparable` is a built-in mixin.  It is used to add the comparison operators to a class. `<, <=, ==, >=, >`
+- Example of namespacing...
+```ruby
+module Mammal
+  class Dog
+    def speak
+      puts "Woof!"
+    end
+  end
+  class Cat
+    def speak
+      puts "Meow"
+    end
+  end
+end
+
+a = Mammal::Dog.new
+b = Mammal::Cat.new
+
+a.speak  # "Woof"
+b.speak  # "Meow"
+```
+
+#### Bloc.io
+
+**Today's Progress:**
+This task will probably take multiple nights. I'm trying to learn how to put together an implementation of the traveling salesman in Ruby.
+
+**Thoughts/Notes:**
+- Notes on implementation 1:
+  - Created `City` class with `name` and `visited` variables.
+  - Instantiated instances of 5 cities and also an array with those 5 instantiations.
+  - Created `Trip` class with 3 variables for the first city, second city and distance.
+  - Created 20 trips listing the different distances between each city... `trip1` thru `trip20` and then put each trip instance in an array.
+  - Created a traveling salesman method which takes the cities and trips array and also the first city to start with.
+    -
+
+**Link to work:**
+
+
+### R1D48 20181031
+#### freeCodeCamp
+
+**Today's Progress:**
 
 **Thoughts/Notes:**
 
@@ -1475,7 +1564,7 @@ Here's my [submission](https://github.com/jmuldvp/bloc-data-structures/tree/mast
 **Link to work:**
 
 
-### R1D48 20181031
+### R1D49 20181101
 #### freeCodeCamp
 
 **Today's Progress:**
