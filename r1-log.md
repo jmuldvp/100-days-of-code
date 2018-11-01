@@ -1536,7 +1536,6 @@ This task will probably take multiple nights. I'm trying to learn how to put tog
   - Created `Trip` class with 3 variables for the first city, second city and distance.
   - Created 20 trips listing the different distances between each city... `trip1` thru `trip20` and then put each trip instance in an array.
   - Created a traveling salesman method which takes the cities and trips array and also the first city to start with.
-    -
 
 **Link to work:**
 
@@ -1545,24 +1544,180 @@ This task will probably take multiple nights. I'm trying to learn how to put tog
 #### freeCodeCamp
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+None.
 
 #### SoloLearn
 
 **Today's Progress:**
+- Struct = a built-in Ruby class and makes it shorter to define simple classes, accessors, and their initialize methods. Here is an example...
+```ruby
+Point = Struct.new(:x, :y)
 
+origin = Point.new(0, 0)
+dest = Point.new(15, 42)
+
+puts dest.y  # 42
+```
+
+- OpenStruct (or OStruct) acts very similarly to Struct, except that it doesn't have a defined list of attributes. Here's an example...
+```ruby
+require "ostruct"
+
+person = OpenStruct.new
+person.name = "John"
+person.age = 42
+person.salary = 250
+
+puts person.name  # John
+```
+
+- OStruct isn't as fast as Struct, but it is more flexible.
+- Can also initialize an OStruct using a hash like so...
+```ruby
+require "ostruct"
+
+person = OpenStruct.new(name:"John", age:42, salary:250)
+
+puts person.name  # John
+```
+
+- Struct and OStruct provide a simple way to create data structures that have the behavior of a class.
+- Examples of built-in classes are `Array`, `String` and `Struct`. Another built-in class is the `Math` class. Here are some examples...
+```ruby
+# square root
+puts Math.sqrt(9) # 3
+
+# pi constant
+puts Math::PI
+
+# trigonometry (sin, cos, tan)
+puts Math::cos(0) # 1
+```
+
+- Another built-in class is `Time`.  Here are some examples...
+```ruby
+# current time
+t = Time.now
+puts t
+
+# year, month, day
+puts t.year
+puts t.month
+puts t.day
+
+# custom date
+t = Time.new(1988, 6, 10)
+
+# day of week: 0 is Sunday
+puts t.wday
+
+# day of year
+puts t.yday
+```
+
+- Procs give the ability to take a block of code, store it in a variable and run that block whenever necessary. Example...
+```ruby
+greet = Proc.new do |x|
+  puts "Welcome #{x}"
+end
+```
+
+- This is how you'd use the above code...
+```ruby
+greet.call "David"
+greet.call "Amy"
+
+# Outputs
+# "Welcome David"
+# "Welcome Amy"
+```
+
+- Procs can be passed into methods like so...
+```ruby
+greet = Proc.new do |x|
+  puts "Welcome #{x}"
+end
+
+goodbye = Proc.new do |x|
+  puts "Goodbye #{x}"
+end
+
+def say(arr, proc)
+  arr.each { |x| proc.call x}
+end
+
+people = ["David", "Amy", "John"]
+say(people, greet)
+say(people, goodbye)
+```
+
+- We can pass to our methods as many procs as we want.
+- Example of a proc to count the execution time of a block of code.
+```ruby
+def calc(proc)
+  start = Time.now
+  proc.call
+  dur = Time.now - start
+end
+
+someProc = Proc.new do
+  num = 0
+  1000000.times do
+    num = num + 1
+  end
+end
+
+puts calc(someProc)
+```
+
+- A lambda is an instance of a Proc class. To create one... `talk = lambda{puts "Hi"}` or `talk = ->() {puts "Hi"}`.
+- Just like with procs this is how a lambda is called.. `talk.call`.
+- In other programming languages, a lambda is commonly referred to as an anonymous function.
+- Lambda's check the number of arguments and procs do not. Take this code that works...
+```ruby
+talk = lambda { |x| puts "Hello #{x}" }
+talk_proc = Proc.new { |x| puts "Hello #{x}" }
+
+talk.call "David"
+# outputs "Hello David"
+
+talk_proc.call "Amy"
+# outputs "Hello Amy"
+```
+
+- This code error's out because of the argument...
+```ruby
+talk_proc.call
+# ouputs Hello
+
+talk.call
+# outputs "Error: wrong number of arguments (given 0, expected 1)"
+```
+
+> - A second difference between a lambda and a Proc is how the return statement is handled.
+When a lambda encounters a return statement it returns execution to the enclosing method.
+However, when a Proc encounters a return statement it jumps out of itself, as well as the enclosing method.
+
+-
 
 #### Bloc.io
 
 **Today's Progress:**
+More studying of the traveling salesman implementations.
 
 **Thoughts/Notes:**
+- Forgot that the double less than `<<` means that a value is being added to the end of an array. Can also for a heredoc like so...
+```ruby
+up_here_doc = <<_stuff_
+This is a test of the emergency broadcast system. Had this been an actual emergency..
+...
+_stuff_
+```
+
+- Implemented a Proc and a Struct instead of creating a class and method.
 
 **Link to work:**
-
+Here's my [work](https://github.com/jmuldvp/bloc-algorithms-complexity/tree/master/cp7).
 
 ### R1D49 20181101
 #### freeCodeCamp
