@@ -1719,7 +1719,140 @@ _stuff_
 **Link to work:**
 Here's my [work](https://github.com/jmuldvp/bloc-algorithms-complexity/tree/master/cp7).
 
+
 ### R1D49 20181101
+#### freeCodeCamp
+
+**Today's Progress:**
+None.
+
+#### SoloLearn
+
+**Today's Progress:**
+- Create a new file `file = File.new("test.txt", "w+")`
+- To close the file `file.close`.
+>- It is necessary to close open files so they no longer continue to occupy space in memory.
+
+- These are the modes for working with files...
+```
+r read-only, starts at beginning of file (default mode).
+r+ read-write, starts at beginning of file.
+w write-only, truncates existing file to zero length or creates a new file for writing.
+w+ read-write, truncates existing file to zero length overwriting existing data or creates a new file for reading and writing.
+a write-only, appends to end of file if file exists, otherwise creates a new file for writing.
+a+ read-write, appends or reads from end of file if file exists, otherwise creates a new file for reading and writing.
+```
+
+- To open an existing file... `file = File.open("filename", "w+")`
+- One way that a file can be created, written to and then closed...
+```ruby
+file = File.new("test.txt", "w+")
+file.puts("some text")
+file.close
+```
+
+- One could use a code block to do the same thing...
+```ruby
+File.open("file.txt", "w+") {
+  |file| file.puts("some text")
+}
+```
+
+- Here's how to read the entire contents of a file...
+```ruby
+f = File.new("test.txt", "w+")
+f.puts("a line of text")
+f.puts("another line of text")
+f.close
+
+puts File.read("test.txt")
+```
+
+- Here's how a file can be read line by line...
+```ruby
+File.open("test.txt", "a+") {
+  |file| file.puts("a line of text")
+  file.puts("another line of text")
+}
+
+File.readlines("test.txt").each {
+  |line| puts " --- #{line}"
+}
+```
+
+- The readlines method reads the entire file based on individual lines and returns those lines in an array.
+- Here is how a file can be deleted `File.delete("test.txt")`. This is a permanent deletion.
+- This checks to see if a file exists in order to prevent an error... `File.open("test.txt") if File.file?("text.txt")`.
+- To grab some file information...
+```ruby
+# create a file
+f = File.new("test.txt", "w+")
+f.puts("some file content")
+
+puts f.size # 19
+
+f.close
+
+puts File.zero?("test.txt") # false
+```
+
+- Can check to see if the file is writable, readable or executable..
+```ruby
+f = File.new("test.txt", "w+")
+f.puts("some content")
+f.close
+
+puts File.readable?("test.txt") # true
+puts File.writable?("test.txt")   # true
+puts File.executable?("test.txt") # false
+```
+
+- Completed the Ruby section.
+
+#### Bloc.io
+
+**Today's Progress:**
+Completed checkpoint 3 of ORM. This is really confusing creating my own ActiveRecord replacement but it does make sense here and there.  I could easily write the sql needed but to try and create an ActiveRecord replacement isn't easy.
+
+**Thoughts/Notes:**
+- Trying to find and study implementations of the exercise to allow these kinds of calls using strings or symbols...
+```ruby
+Entry.order(:name, phone_number: :desc)
+# or
+Entry.order(name: :asc, phone_number: :desc)
+# or
+Entry.order("name ASC, phone_number DESC")
+# or
+Entry.order("name ASC", "phone_number DESC")
+```
+
+**Link to work:**
+None.
+
+
+### R1D50 20181105
+#### freeCodeCamp
+
+**Today's Progress:**
+None.
+
+#### SoloLearn
+
+**Today's Progress:**
+None.
+
+#### Bloc.io
+
+**Today's Progress:**
+Finished the SQL challenge and tried to implement a sort option in the Bloc_Record project.
+
+**Thoughts/Notes:**
+Stuck on trying to implement the sort action within Address-Bloc.
+
+**Link to work:**
+
+
+### R1D51 20181106
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -1732,6 +1865,49 @@ Here's my [work](https://github.com/jmuldvp/bloc-algorithms-complexity/tree/mast
 
 **Today's Progress:**
 
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D52 20181107
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D53 20181108
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
 
 #### Bloc.io
 
