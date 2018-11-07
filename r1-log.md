@@ -1850,29 +1850,49 @@ Finished the SQL challenge and tried to implement a sort option in the Bloc_Reco
 Stuck on trying to implement the sort action within Address-Bloc.
 
 **Link to work:**
-
+None.
 
 ### R1D51 20181106
 #### freeCodeCamp
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+None.
 
 #### SoloLearn
 
 **Today's Progress:**
+Working on JavaScript now. Finished some familiar concepts of if/else and also the `switch` statement.
 
 #### Bloc.io
 
 **Today's Progress:**
+Completed ORM arch checkpoint on `where`, `order` and `joins`. Started on the data structure checkpoint on binary trees. Now I'm working on the assignment where I have to implement `insert`, `find`, `delete` and `printf`.
 
 **Thoughts/Notes:**
+- Tree's consist of *Nodes*.
+- Tree's grow from the top down.
+- A node may only have at most 2 child nodes.
+- Nodes without children are called leaf nodes.
+- A Heap is also a tree.
+- Binary Heap...
+>A binary heap is a complete binary tree; that is, all levels of the tree, except possibly the last one (deepest) are fully filled, and, if the last level of the tree is not complete, the nodes of that level are filled from left to right.
+
+- Here's the logic for inserting into a Binary Heap...
+```
+1. Insert a new node at the end of Heap.
+2. Compare the value of the new child node with its parent.
+3. If the value of parent node is less than child, then swap the parent node with the child node.
+4. Repeat step 2 and 3 until the Heap property holds.
+```
+
+- Depth-First Search (DFS):
+>DFS is the process of traveling down a single branch in search of the desired element. If you find it, hurray, but if not, you travel upwards and repeat the process with unvisited Nodes.
+
+- Breadth-First Search (BFS):
+>search an entire row of Nodes before we proceed to the next.
 
 **Link to work:**
-
+None.
 
 ### R1D52 20181107
 #### freeCodeCamp
