@@ -1894,7 +1894,24 @@ Completed ORM arch checkpoint on `where`, `order` and `joins`. Started on the da
 **Link to work:**
 None.
 
-### R1D52 20181107
+### R1D52 20181114
+#### freeCodeCamp
+
+**Today's Progress:**
+None.
+
+#### SoloLearn
+
+**Today's Progress:**
+None.  I did work on the JavaScript section a few days ago but didn't log it until now.
+
+#### Bloc.io
+
+**Today's Progress:**
+Trying to read through and to understand the assignment on min heap.
+
+
+### R1D53 20181115
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -1916,7 +1933,7 @@ None.
 **Link to work:**
 
 
-### R1D53 20181108
+### R1D54 20181116
 #### freeCodeCamp
 
 **Today's Progress:**
