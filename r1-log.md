@@ -1915,20 +1915,20 @@ Trying to read through and to understand the assignment on min heap.
 #### freeCodeCamp
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+None.
 
 #### SoloLearn
 
 **Today's Progress:**
+None.
 
 #### Bloc.io
 
 **Today's Progress:**
+Read more about how to put a min heap together with `insert`, `delete`, `find` and `print` methods.
 
 **Thoughts/Notes:**
+- Read a little about `public`, `private` and `protected` access within Ruby.
 
 **Link to work:**
 
