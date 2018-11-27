@@ -1933,7 +1933,87 @@ Read more about how to put a min heap together with `insert`, `delete`, `find` a
 **Link to work:**
 
 
-### R1D54 20181116
+### R1D54 20181126
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+Covered JS functions.
+- Always remember to end the statement with a semicolon after calling the function.
+- You can also call a function using this syntax: myFunction.call().
+
+In regards to function parameters..
+- If a function is called with missing arguments (fewer than declared), the missing values are set to undefined, which indicates that a variable has not been assigned a value.
+- If you do not return anything from a function, it will return undefined.
+- The document.write command outputs the value returned by the function, which is the sum of the two parameters.
+
+*Alert box*
+- An alert box is used when you want to ensure that information gets through to the user.
+- When an alert box pops up, the user must click OK to proceed.
+- To display line breaks within a popup box, use a backslash followed by the character n.
+
+*Prompt Box*
+- A prompt box is often used to have the user input a value before entering a page.
+- When a prompt box pops up, the user will have to click either OK or Cancel to proceed after entering the input value.
+- If the user clicks OK, the box returns the input value. If the user clicks Cancel, the box returns null.
+- The prompt() method takes two parameters.
+- The first is the label, which you want to display in the text box.
+- The second is a default string to display in the text box (optional).
+
+*Confirm Box*
+- A confirm box is often used to have the user verify or accept something.
+- When a confirm box pops up, the user must click either OK or Cancel to proceed.
+- If the user clicks OK, the box returns true. If the user clicks Cancel, the box returns false.
+```JavaScript
+var result = confirm("Do you really want to leave this page?");
+if (result == true) {
+  alert("Thanks for visiting");
+}
+else {
+  alert("Thanks for staying with us");
+}
+```
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+
+### R1D55 20181127
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D56 20181128
 #### freeCodeCamp
 
 **Today's Progress:**
