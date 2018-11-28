@@ -1937,10 +1937,7 @@ Read more about how to put a min heap together with `insert`, `delete`, `find` a
 #### freeCodeCamp
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+None.
 
 #### SoloLearn
 
@@ -1984,34 +1981,38 @@ else {
 #### Bloc.io
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
+None.
 
 
 ### R1D55 20181127
 #### freeCodeCamp
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+None.
 
 #### SoloLearn
 
 **Today's Progress:**
+*Objects*
+- JavaScript objects are containers for named values.
+- You can access object properties in two ways.
+  - `objectName.propertyName`
+  - `objectName['propertyName']`
+- JavaScript's built-in length property is used to count the number of characters in a property or string.
+```JavaScript
+var course = {name: "JS", lessons: 41};
+document.write(course.name.length);
+//Outputs 2
+```
+
+- An object method is a property that contains a function definition.
+- As you already know, document.write() outputs data. The write() function is actually a method of the document object.
+- Methods are functions that are stored as object properties.
 
 #### Bloc.io
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
+None.
 
 ### R1D56 20181128
 #### freeCodeCamp
