@@ -2014,7 +2014,211 @@ document.write(course.name.length);
 **Today's Progress:**
 None.
 
-### R1D56 20181128
+### R1D56 20181203
+#### freeCodeCamp
+
+**Today's Progress:**
+None.
+
+#### SoloLearn
+
+**Today's Progress:**
+Object constructor example:
+```JavaScript
+function person(name, age, color) {
+  this.name = name;
+  this.age = age;
+  this.favColor = color;
+}
+```
+
+- The this keyword refers to the current object. Note that this is not a variable. It is a keyword, and its value cannot be changed.
+- Once you have an object constructor, you can use the new keyword to create new objects of the same type. Here's an example...
+```JavaScript
+var p1 = new person("John", 42, "green");
+var p2 = new person("Amy", 21, "red");
+
+document.write(p1.age); // Outputs 42
+document.write(p2.name); // Outputs "Amy"
+```
+
+- Use the object literal or initializer syntax to create single objects like so...
+```JavaScript
+var John = {name: "John", age: 25};
+var James = {name: "James", age: 21};
+```
+
+- Methods are functions that are stored as object properties.
+```JavaScript
+function person(name, age) {
+  this.name = name;  
+  this.age = age;
+  this.changeName = function (name) {
+    this.name = name;
+  }
+}
+
+var p = new person("David", 21);
+p.changeName("John");
+//Now p.name equals to "John"
+```
+
+- The changeName method changes the object's name property to its argument.
+- You can also define the function outside of the constructor function and associate it with the object.
+```JavaScript
+function person(name, age) {
+  this.name= name;  
+  this.age = age;
+  this.yearOfBirth = bornYear;
+}
+function bornYear() {
+  return 2016 - this.age;
+}
+```
+
+- Note that it's not necessary to write the function's parentheses when assigning it to an object.
+- Here is another example...
+```JavaScript
+function person(name, age) {
+  this.name= name;  
+  this.age = age;
+  this.yearOfBirth = bornYear;
+}
+function bornYear() {
+  return 2016 - this.age;
+}
+
+var p = new person("A", 22);
+document.write(p.yearOfBirth());
+// Outputs 1994
+```
+
+- Call the method by the property name you specified in the constructor function, rather than the function name.
+- Delcaring an array...
+```JavaScript
+var courses = new Array("HTML", "CSS", "JS");
+```
+
+- Declaring and modifying an array...
+```JavaScript
+var courses = new Array("HTML", "CSS", "JS");
+var course = courses[0]; // HTML
+courses[1] = "C++"; //Changes the second element
+```
+
+- Accessing an element outside of the array returns *undefined*.
+```JavaScript
+var courses = new Array("HTML", "CSS", "JS");
+document.write(courses[10]);
+//Outputs "undefined"
+```
+
+- The fastest way I know of how to create an array...
+```JavaScript
+var courses = ["HTML", "CSS", "JS"];
+```
+
+- In regards to associative arrays, JavaScript does not support arrays with named indexes
+```JavaScript
+var person = []; //empty array
+person["name"] = "John";
+person["age"] = 46;
+document.write(person["age"]);
+//Outputs "46"
+```
+
+- In JavaScript, arrays always use numbered indexes. It is better to use an object when you want the index to be a string (text). Use an array when you want the index to be a number. If you use a named index, JavaScript will redefine the array to a standard object.
+
+- The math object allows us to perform mathematical tasks. This would produce pi `document.write(Math.PI); //Outputs 3.141592653589793`.
+- Math has no constructor. There's no need to create a Math object first.
+- To get a random number between 1-10, use Math.random(), which gives you a number between 0-1. Then multiply the number by 10, and then take Math.ceil() from it: Math.ceil(Math.random() * 10).
+- This will ask a user for a number the produce the square root...
+```JavaScript
+var n = prompt("Enter a number", "");
+var answer = Math.sqrt(n);
+alert("The square root of " + n + " is " + answer);
+```
+
+- The setInterval() method calls a function or evaluates an expression at specified intervals (in milliseconds).
+- It will continue calling the function until clearInterval() is called or the window is closed.
+```JavaScript
+function myAlert() {
+   alert("Hi");
+}
+setInterval(myAlert, 3000);
+```
+
+- The Date object enables us to work with dates. A date consists of a year, a month, a day, an hour, a minute, a second, and milliseconds. Using new Date(), create a new date object with the current date and time.
+```JavaScript
+var d = new Date();
+//d stores the current date and time
+```
+
+- Here are some date examples..
+```JavaScript
+//Fri Jan 02 1970 00:00:00
+var d1 = new Date(86400000);
+
+//Fri Jan 02 2015 10:42:00
+var d2 = new Date("January 2, 2015 10:42:00");
+
+//Sat Jun 11 1988 11:42:00
+var d3 = new Date(88,5,11,11,42,0,0);
+```
+
+- JavaScript counts months from 0 to 11. January is 0, and December is 11.
+Date objects are static, rather than dynamic. The computer time is ticking, but date objects don't change, once created.
+- After a date object is created, one could format it like so...
+```JavaScript
+var d = new Date();
+var hours = d.getHours();
+//hours is equal to the current hour
+```
+
+- This prints the time to the browser every second...
+```JavaScript
+function printTime() {
+  var d = new Date();
+  var hours = d.getHours();
+  var mins = d.getMinutes();
+  var secs = d.getSeconds();
+  document.body.innerHTML = hours+":"+mins+":"+secs;
+}
+setInterval(printTime, 1000);
+```
+
+- We declared a function printTime(), which gets the current time from the date object, and prints it to the screen.
+- We then called the function once every second, using the setInterval method. The innerHTML property sets or returns the HTML content of an element. In our case, we are changing the HTML content of our document's body. This overwrites the content every second, instead of printing it repeatedly to the screen.
+
+#### Bloc.io
+
+**Today's Progress:**
+None.
+
+
+### R1D56 20181204
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D56 20181205
 #### freeCodeCamp
 
 **Today's Progress:**
