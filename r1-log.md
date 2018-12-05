@@ -2080,7 +2080,7 @@ function bornYear() {
 - Here is another example...
 ```JavaScript
 function person(name, age) {
-  this.name= name;  
+  this.name = name;  
   this.age = age;
   this.yearOfBirth = bornYear;
 }
@@ -2094,7 +2094,7 @@ document.write(p.yearOfBirth());
 ```
 
 - Call the method by the property name you specified in the constructor function, rather than the function name.
-- Delcaring an array...
+- Declaring an array...
 ```JavaScript
 var courses = new Array("HTML", "CSS", "JS");
 ```
@@ -2196,18 +2196,120 @@ setInterval(printTime, 1000);
 None.
 
 
-### R1D56 20181204
+### R1D57 20181204
 #### freeCodeCamp
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+None.
 
 #### SoloLearn
 
 **Today's Progress:**
+Learned more about the DOM.
+- The DOM represents a document as a tree structure.
+- HTML elements become interrelated nodes in the tree.
+- All those nodes in the tree have some kind of relations among each other.
+- Nodes can have child nodes. Nodes on the same tree level are called siblings.
+- There is a predefined document object in JavaScript, which can be used to access all elements on the DOM.
+- As body is an element of the DOM, we can access it using the document object and change the content of the innerHTML property. `document.body.innerHTML = "Some text";`
+- All HTML elements are objects. And as we know every object has properties and methods.
+```JavaScript
+//finds element by id
+document.getElementById(id)
+
+//finds elements by class name
+document.getElementsByClassName(name)
+
+//finds elements by tag name
+document.getElementsByTagName(name)
+```
+
+- In the example below, the getElementById method is used to select the element with id="demo" and change its content:
+```JavaScript
+var elem = document.getElementById("demo");
+elem.innerHTML = "Hello World!";
+```
+
+- The example above assumes that the HTML contains an element with id="demo", for example <div id="demo"></div>.
+- The following example gets all paragraph elements of the page and changes their content:
+```JavaScript
+<p>hi</p>
+<p>hello</p>
+<p>hi</p>
+<script>
+var arr = document.getElementsByTagName("p");
+for (var x = 0; x < arr.length; x++) {
+  arr[x].innerHTML = "Hi there";
+}
+</script>
+```
+
+- The above script will result in the following HTML:
+```HTML
+<p>Hi there</p>
+<p>Hi there</p>
+<p>Hi there</p>
+```
+
+- Each element in the DOM has a set of properties and methods that provide information about their relationships in the DOM:
+>element.childNodes returns an array of an element's child nodes.
+element.firstChild returns the first child node of an element.
+element.lastChild returns the last child node of an element.
+element.hasChildNodes returns true if an element has any child nodes, otherwise false.
+element.nextSibling returns the next node at the same tree level.
+element.previousSibling returns the previous node at the same tree level.
+element.parentNode returns the parent node of an element.
+
+- We can, for example, select all child nodes of an element and change their content:
+```JavaScript
+<html>
+  <body>
+    <div id ="demo">
+      <p>some text</p>
+      <p>some other text</p>
+    </div>
+
+    <script>
+     var a = document.getElementById("demo");
+     var arr = a.childNodes;
+     for(var x=0;x<arr.length;x++) {
+       arr[x].innerHTML = "new text";
+     }
+    </script>
+
+  </body>
+</html>
+```
+
+- A `src` tag can be changed with JavaScript like so...
+```JavaScript
+<img id="myimg" src="orange.png" alt="" />
+<script>
+var el = document.getElementById("myimg");
+el.src = "apple.png";
+</script>
+```
+
+- A `href` attribute can also be changed like so...
+```JavaScript
+<a href="http://www.example.com">Some link</a>
+<script>
+var el = document.getElementsByTagName("a");
+el[0].href = "http://www.sololearn.com";
+</script>
+```
+
+- The style of HTML elements can also be changed using JavaScript.
+```JavaScript
+<div id="demo" style="width:200px">some text</div>
+<script>
+  var x = document.getElementById("demo");
+  x.style.color = "6600FF";
+  x.style.width = "100px";
+</script>
+```
+
+- All CSS properties can be set and modified using JavaScript. Just remember, that you cannot use dashes (-) in the property names: these are replaced with camelCase versions, where the compound words begin with a capital letter. For example: the background-color property should be referred to as backgroundColor.
 
 #### Bloc.io
 
@@ -2218,7 +2320,7 @@ None.
 **Link to work:**
 
 
-### R1D56 20181205
+### R1D58 20181205
 #### freeCodeCamp
 
 **Today's Progress:**
