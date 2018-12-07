@@ -2314,13 +2314,119 @@ el[0].href = "http://www.sololearn.com";
 #### Bloc.io
 
 **Today's Progress:**
+None.
+
+
+### R1D58 20181206
+#### freeCodeCamp
+
+**Today's Progress:**
+None.
+
+#### SoloLearn
+
+**Today's Progress:**
+*Creating Elements*
+- element.cloneNode() clones an element and returns the resulting node.
+- document.createElement(element) creates a new element node.
+- document.createTextNode(text) creates a new text node.
+
+For example:
+`var node = document.createTextNode("Some new text");`
+
+This will create a new text node, but it will not appear in the document until you append it to an existing element with one of the following methods:
+- element.appendChild(newNode) adds a new child node to an element as the last child node.
+- element.insertBefore(node1, node2) inserts node1 as a child before node2.
+
+Another example:
+```JavaScript
+<div id ="demo">some content</div>
+
+<script>
+  //creating a new paragraph
+  var p = document.createElement("p");
+  var node = document.createTextNode("Some new text");
+  //adding the text to the paragraph
+  p.appendChild(node);
+
+  var div = document.getElementById("demo");
+  //adding the paragraph to the div
+  div.appendChild(p);
+</script>
+```
+
+*Removing Elements*
+To remove an HTML element, you must select the parent of the element and use the removeChild(node) method.
+```JavaScript
+<div id="demo">
+  <p id="p1">This is a paragraph.</p>
+  <p id="p2">This is another paragraph.</p>
+</div>
+
+<script>
+var parent = document.getElementById("demo");
+var child = document.getElementById("p1");
+parent.removeChild(child);
+</script>
+```
+
+This removes the paragraph with id="p1" from the page.
+
+>An alternative way of achieving the same result would be the use of the parentNode property to get the parent of the element we want to remove:
+var child = document.getElementById("p1");
+child.parentNode.removeChild(child);
+
+*Replacing Elements*
+To replace an HTML element, the element.replaceChild(newNode, oldNode) method is used.
+
+```JavaScript
+<div id="demo">
+  <p id="p1">This is a paragraph.</p>
+  <p id="p2">This is another paragraph.</p>
+</div>
+
+<script>
+var p = document.createElement("p");
+var node = document.createTextNode("This is new");
+p.appendChild(node);
+
+var parent = document.getElementById("demo");
+var child = document.getElementById("p1");
+parent.replaceChild(p, child);
+</script>
+```
+
+>The code above creates a new paragraph element that replaces the existing p1 paragraph.
+
+#### Bloc.io
+
+**Today's Progress:**
+None.
+
+
+### R1D59 20181207
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
 
 **Thoughts/Notes:**
 
 **Link to work:**
 
 
-### R1D58 20181205
+### R1D60 20181208
 #### freeCodeCamp
 
 **Today's Progress:**
