@@ -2404,7 +2404,154 @@ parent.replaceChild(p, child);
 None.
 
 
-### R1D59 20181207
+### R1D59 20181220
+#### freeCodeCamp
+
+**Today's Progress:**
+None.
+
+#### SoloLearn
+
+**Today's Progress:**
+In creating animations, I can start with this box...
+```JavaScript
+<style>
+#container {
+  width: 200px;
+  height: 200px;
+  background: green;
+  position: relative;
+}
+#box {
+  width: 50px;
+  height: 50px;
+  background: red;
+  position: absolute;
+}
+</style>
+<div id="container">
+   <div id="box"> </div>
+</div>
+```
+
+- In order to create an animation, the `setInterval()` method can be used to create a timer and call a function repeatedly like so `var t = setInterval(move, 500);`
+- Now that the `move()` function is created, it needs to be defined...
+```JavaScript
+// starting position
+var pos = 0;
+//our box element
+var box = document.getElementById("box");
+
+function move() {
+  pos += 1;
+  box.style.left = pos+"px"; //px = pixels
+}
+```
+- Once a function has been called for animation, it needs to be stopped otherwise it will just continue. `var t = setInterval(move, 10);`
+```JavaScript
+var pos = 0;
+//our box element
+var box = document.getElementById("box");
+var t = setInterval(move, 10);
+
+function move() {
+  if(pos >= 150) {
+    clearInterval(t);
+  }
+  else {
+    pos += 1;
+    box.style.left = pos+"px";
+  }
+}
+```
+
+#### Bloc.io
+
+**Today's Progress:**
+None.
+
+
+### R1D60 20181225
+#### freeCodeCamp
+
+**Today's Progress:**
+None.
+
+#### SoloLearn
+
+**Today's Progress:**
+3 ways of declaring variables...
+```JavaScript
+var a = 10;
+const b = 'hello';
+let c = true;
+```
+
+- One of the best uses for `let` is in loops.
+>let is not subject to Variable Hoisting, which means that let declarations do not move to the top of the current execution context.
+
+- `const` variables have the same scope as variables declared using let. The difference is that const variables are immutable - they are not allowed to be reassigned.
+>const is not subject to Variable Hoisting too, which means that const declarations do not move to the top of the current execution context.
+Also note that ES6 code will run only in browsers that support it. Older devices and browsers that do not support ES6 will return a syntax error.
+
+- This code...
+```JavaScript
+let name = 'David';
+let msg = 'Welcome ' + name + '!';
+console.log(msg);
+```
+
+..can be written as this..
+```JavaScript
+let name = 'David';
+let msg = `Welcome ${name}!`;
+console.log(msg);
+```
+
+>Notice, that template literals are enclosed by the backtick (` `) character instead of double or single quotes.
+The ${expression} is a placeholder, and can include any expression, which will get evaluated and inserted into the template literal.
+
+>To escape a backtick in a template literal, put a backslash \ before the backtick.
+
+#### Bloc.io
+
+**Today's Progress:**
+Studied implementations of MinHeap.
+
+#### Ruby Cookbook
+
+**Today's Progress:**
+
+Learned about `prepend`, `bsearch` and the different ways of working with strings.  I really liked this code on figuring out the class hierarchy...
+
+```Ruby
+module MyHelper
+  def save
+    puts "before"
+    super
+    puts "after"
+  end
+end
+
+class MyGoodClass
+  prepend MyHelper
+
+  def save
+    puts "my code"
+  end
+end
+
+MyGoodClass.new.save
+
+def parents(obj)
+  ((obj.superclass ? parents(obj.superclass) : []) << obj).reverse
+end
+
+parents(MyGoodClass)
+# => [Class, Object, BasicObject, Module]
+```
+
+### R1D61 20181226
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -2426,7 +2573,7 @@ None.
 **Link to work:**
 
 
-### R1D60 20181208
+### R1D62 20181223
 #### freeCodeCamp
 
 **Today's Progress:**
