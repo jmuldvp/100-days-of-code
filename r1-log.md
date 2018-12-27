@@ -2555,6 +2555,115 @@ parents(MyGoodClass)
 #### freeCodeCamp
 
 **Today's Progress:**
+None.
+
+#### SoloLearn
+
+**Today's Progress:**
+- In JavaScript we commonly use the for loop to iterate over values in a list:
+```JavaScript
+let arr = [1, 2, 3];
+for (let k = 0; k < arr.length; k++) {
+  console.log(arr[k]);
+}
+```
+
+- The for...in loop is intended for iterating over the enumerable keys of an object. For example:
+```JavaScript
+let obj = {a: 1, b: 2, c: 3};
+for (let v in obj) {
+  console.log(v);
+}
+```
+
+>The for...in loop should NOT be used to iterate over arrays because, depending on the JavaScript engine, it could iterate in an arbitrary order. Also, the iterating variable is a string, not a number, so if you try to do any math with the variable, you'll be performing string concatenation instead of addition.
+
+- ES6 introduces the new for...of loop, which creates a loop iterating over iterable objects. For example:
+```JavaScript
+let list = ["x", "y", "z"];
+for (let val of list) {
+  console.log(val);
+}
+```
+
+- The for...of loop works for other iterable objects as well, including strings:
+```JavaScript
+for (let ch of "Hello") {
+  console.log(ch);
+}
+```
+
+>The for...of loop also works on the newly introduced collections (Map, Set, WeakMap, and WeakSet).
+
+- Old way of writing functions..
+```JavaScript
+function add(x, y) {
+  var sum = x+y;  
+  console.log(sum);
+}
+```
+
+- New way of writing functions..
+```JavaScript
+const add = (x, y) => {
+  let sum = x + y;  
+  console.log(sum);
+}
+```
+
+- Also can be written like this... `const greet = x => "Welcome " + x;`
+- If no parameters, use this syntax... `const x = () => alert("Hi");`
+
+This code...
+```JavaScript
+var arr = [2, 3, 7, 8];
+
+arr.forEach(function(el) {
+  console.log(el * 2);
+});
+```
+
+..can be rewritten as follows..
+
+```JavaScript
+const arr = [2, 3, 7, 8];
+
+arr.forEach(v => {
+  console.log(v * 2);
+});
+```
+
+- It is possible to create default values as parameters...
+```JavaScript
+function test(a, b = 3, c = 42) {
+  return a + b + c;
+}
+console.log(test(5)); //50
+```
+
+..and in an arrow function as well..
+```JavaScript
+const test = (a, b = 3, c = 42) => {
+  return a + b + c;
+}
+console.log(test(5)); //50
+```
+
+#### Bloc.io
+
+**Today's Progress:**
+None.
+
+#### Ruby Cookbook
+
+**Today's Progress:**
+Covered creating and invoking a block, writing a method that accepts a block, binding a block argument to a variable.
+
+
+### R1D62 20181227
+#### freeCodeCamp
+
+**Today's Progress:**
 
 **Thoughts/Notes:**
 
@@ -2573,7 +2682,29 @@ parents(MyGoodClass)
 **Link to work:**
 
 
-### R1D62 20181223
+### R1D63 20181228
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D64 20181229
 #### freeCodeCamp
 
 **Today's Progress:**
