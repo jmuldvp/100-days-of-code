@@ -2664,22 +2664,147 @@ Covered creating and invoking a block, writing a method that accepts a block, bi
 #### freeCodeCamp
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+None.
 
 #### SoloLearn
 
 **Today's Progress:**
+- The method definition shorthand does not require the colon or function keyword, as in the grow function of the tree object declaration...
+```JavaScript
+let tree = {
+  height: 10,
+  color: 'green',
+  grow() {
+    this.height += 2;
+  }
+};
+tree.grow();
+console.log(tree.height); // 12
+```
+
+- You can also use a property value shorthand when initializing properties with a variable by the same name.
+```JavaScript
+let height = 5;
+let health = 100;
+
+let athlete = {
+  height,
+  health
+};
+```
+
+- When creating an object by using duplicate property names, the last property will overwrite the prior ones of the same name.  `var a = {x: 1, x: 2, x: 3, x: 4}`
+
+>Duplicate property names generated a SyntaxError in ES5 when using strict mode. However, ES6 removed this limitation.
+
+- With ES6, you can now use computed property names. Using the square bracket notation [], we can use an expression for a property name, including concatenating strings.
+```JavaScript
+// Example 1
+let prop = 'name';
+let id = '1234';
+let mobile = '08923';
+
+let user = {
+  [prop]: 'Jack',
+  [`user_${id}`]: `${mobile}`
+};
+
+// Example 2
+var i = 0;
+var a = {
+  ['foo' + ++i]: i,
+  ['foo' + ++i]: i,
+  ['foo' + ++i]: i
+};
+
+// Example 3
+var param = 'size';
+var config = {
+  [param]: 12,
+  ['mobile' + param.charAt(0).toUpperCase() + param.slice(1)]: 4
+};
+console.log(config);
+```
+
+>It is very useful when you need to create custom objects based on some variables.
+
+- ES6 adds a new Object method assign() that allows us to combine multiple sources into one target to create a single new object. Object.assign() is also useful for creating a duplicate of an existing object.
+```JavaScript
+let person = {
+  name: 'Jack',
+  age: 18,
+  sex: 'male'
+};
+let student = {
+  name: 'Bob',
+  age: 20,
+  xp: '2'
+};
+let newStudent = Object.assign({}, person, student);
+```
+
+- Here we used Object.assign() where the first parameter is the target object you want to apply new properties to. Every parameter after the first will be used as sources for the target. There are no limitations on the number of source parameters. However, order is important because properties in the second parameter will be overridden by properties of the same name in third parameter, and so on.
+- In the following example, assignment was used to try to generate a new object. However, using = creates a reference to the base object. Because of this reference, changes intended for a new object mutate the original object:
+```JavaScript
+let person = {
+  name: 'Jack',
+  age: 18
+};
+
+let newPerson = person; //  newPerson references person
+newPerson.name = 'Bob';
+
+console.log(person.name); // Bob
+console.log(newPerson.name); // Bob
+```
+
+- To avoid this (mutations), use Object.assign() to create a new object
+```JavaScript
+let person = {
+  name: 'Jack',
+  age: 18
+};
+
+let newPerson = Object.assign({}, person);
+newPerson.name = 'Bob';
+
+console.log(person.name); // Jack
+console.log(newPerson.name); // Bob
+```
+
+- Finally, you can assign a value to an object property in the Object.assign() statement.
+```JavaScript
+let person = {
+  name: 'Jack',
+  age: 18
+};
+
+let newPerson = Object.assign({}, person, {name: 'Bob'});
+```
+
+- What is the output of this code?
+```JavaScript
+const obj1 = {
+  a: 0,
+  b: 2,
+  c: 4
+};
+const obj2 = Object.assign({c: 5, d: 6}, obj1);
+console.log(obj2.c, obj2.d);
+// 4 6
+```
 
 #### Bloc.io
 
 **Today's Progress:**
+None.
 
-**Thoughts/Notes:**
-
-**Link to work:**
+#### Ruby Cookbook reading
+Learned about...
+- Outside variables within a code block.
+- Writing an iterator over a data structure.
+- Using symbols as hash keys
+- Creating a Hash with a default value
 
 
 ### R1D63 20181228
