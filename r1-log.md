@@ -2811,22 +2811,105 @@ Learned about...
 #### freeCodeCamp
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+None.
 
 #### SoloLearn
 
 **Today's Progress:**
+- Destructuring an array. The following example demonstrates how to unpack the elements of an array into distinct variables..
+```JavaScript
+let arr = ['1', '2', '3'];
+let [one, two, three] = arr;
+
+console.log(one); // 1
+console.log(two); // 2
+console.log(three); // 3
+```
+
+- We can use also destructure an array returned by a function.
+```JavaScript
+let a = () => {
+  return [1, 3, 2];
+};
+
+let [one, , two] = a();
+```
+
+- Notice that we left the second argument's place empty. The destructuring syntax also simplifies assignment and swapping values..
+```JavaScript
+let a, b, c = 4, d = 8;
+[a, b = 6] = [2]; // a = 2, b = 6
+
+[c, d] = [d, c]; // c = 8, d = 4
+```
+
+- What is the output of the following code?
+```
+let names = ['John', 'Fred', 'Ann'];
+let [Ann, Fred, John] = names;
+console.log(John);
+```
+
+Ann
+
+- Similar to Array destructuring, Object destructuring unpacks properties into distinct variables.
+```JavaScript
+let obj = {h:100, s: true};
+let {h, s} = obj;
+
+console.log(h); // 100
+console.log(s); // true
+```
+
+- We can assign without declaration, but there are some syntax requirements for that:
+```JavaScript
+let a, b;
+({a, b} = {a: 'Hello ', b: 'Jack'});
+
+console.log(a + b); // Hello Jack
+```
+
+- The () with a semicolon (;) at the end are mandatory when destructuring without a declaration. However, you can also do it as follows where the () are not required..
+```JavaScript
+let {a, b} = {a: 'Hello ', b: 'Jack'};
+console.log(a + b);
+```
+
+- Can also assign the object to new variable names..
+```JavaScript
+var o = {h: 42, s: true};
+var {h: foo, s: bar} = o;
+
+//console.log(h); // Error
+console.log(foo); // 42
+```
+
+- Finally you can assign default values to variables, in case the value unpacked from the object is undefined.
+```JavaScript
+var obj = {id: 42, name: "Jack"};
+
+let {id = 10, age = 20} = obj;
+
+console.log(id); // 42
+console.log(age); // 20
+```
+
+- What is the output of the following code?
+```JavaScript
+const obj = {one: 1, two: 2};
+let {one:first, two:second} = obj;
+console.log(one);
+```
+
+Error
 
 #### Bloc.io
 
 **Today's Progress:**
+None.
 
-**Thoughts/Notes:**
-
-**Link to work:**
+#### Ruby Cookbook
+- Adding elements to a hash in different ways.
 
 
 ### R1D64 20181229
