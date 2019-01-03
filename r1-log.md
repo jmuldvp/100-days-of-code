@@ -2912,7 +2912,177 @@ None.
 - Adding elements to a hash in different ways.
 
 
-### R1D64 20181229
+### R1D64 20190102
+#### freeCodeCamp
+
+**Today's Progress:**
+None.
+
+#### SoloLearn
+
+**Today's Progress:**
+- Write a function that checks if an array contains all the arguments passed..
+```JavaScript
+function containsAll(arr) {
+  for (let k = 1; k < arguments.length; k++) {
+    let num = arguments[k];
+    if (arr.indexOf(num) === -1) {
+      return false;
+    }
+  }
+  return true;
+}
+let x = [2, 4, 6, 7];
+console.log(containsAll(x, 2, 4, 7));
+console.log(containsAll(x, 6, 4, 9));
+```
+
+- While this does the job, ES6 provides a more readable syntax to achieve variable number of parameters by using a rest parameter..
+```JavaScript
+function containsAll(arr, ...nums) {
+  for (let num of nums) {
+    if (arr.indexOf(num) === -1) {
+      return false;
+    }
+  }
+  return true;
+}
+```
+
+- The ...nums parameter is called a rest parameter. It takes all the "extra" arguments passed to the function. The three dots (...) are called the Spread operator.
+
+> Only the last parameter of a function may be marked as a rest parameter. If there are no extra arguments, the rest parameter will simply be an empty array; the rest parameter will never be undefined.
+
+- What is the output of the following code?
+```JavaScript
+function magic(...nums) {
+  let sum = 0;
+  nums.filter(n => n % 2 == 0).map(el => sum+= el);
+  return sum;
+}
+console.log(magic(1, 2, 3, 4, 5, 6));  // 12
+```
+
+- It is common to pass the elements of an array as arguments to a function. Before ES6, we used the following method..
+```JavaScript
+function myFunction(w, x, y, z) {
+  console.log(w + x + y + z);
+}
+var args = [1, 2, 3];
+myFunction.apply(null, args.concat(4));
+```
+
+- ES6 provides an easy way to do the example above with spread operators..
+```JavaScript
+const myFunction = (w, x, y, z) => {
+  console.log(w + x + y + z);
+};
+let args = [1, 2, 3];
+myFunction(...args, 4);
+```
+
+- Spread in array literals = Before ES6, we used the following syntax to add an item at middle of an array..
+```JavaScript
+var arr = ["One", "Two", "Five"];
+
+arr.splice(2, 0, "Three");
+arr.splice(3, 0, "Four");
+console.log(arr);
+```
+
+- However, in ES6 the spread operator lets us do this more easily..
+```JavaScript
+let newArr = ['Three', 'Four'];
+let arr = ['One', 'Two', ...newArr, 'Five'];
+console.log(arr);
+```
+
+- In objects it copies the own enumerable properties from the provided object onto a new object..
+```JavaScript
+const obj1 = { foo: 'bar', x: 42 };
+const obj2 = { foo: 'baz', y: 5 };
+
+const clonedObj = {...obj1}; // { foo: "bar", x: 42 }
+const mergedObj = {...obj1, ...obj2}; // { foo: "baz", x: 42, y: 5 }
+```
+
+- However, if you try to merge them you will not get the result you expected..
+```JavaScript
+const obj1 = { foo: 'bar', x: 42 };
+const obj2 = { foo: 'baz', y: 5 };
+const merge = (...objects) => ({...objects});
+
+let mergedObj = merge(obj1, obj2);
+// { 0: { foo: 'bar', x: 42 }, 1: { foo: 'baz', y: 5 } }
+
+let mergedObj2 = merge({}, obj1, obj2);
+// { 0: {}, 1: { foo: 'bar', x: 42 }, 2: { foo: 'baz', y: 5 } }
+```
+
+> Shallow cloning or merging objects is possible with another operator called Object.assign().
+
+- What is the output of the following code?
+```JavaScript
+let nums = [3, 4, 5];
+let all = [1, 2, ...nums, 6];
+console.log(all[3]); // 4
+```
+
+#### Bloc.io
+
+**Today's Progress:**
+Still trying to learn how to do an insert and find in a min heap.
+
+#### Ruby Cookbook
+
+- Learned how to remove elements from a hash.
+
+
+### R1D65 20190103
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D66 20190104
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D67 20190105
 #### freeCodeCamp
 
 **Today's Progress:**
