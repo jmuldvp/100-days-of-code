@@ -3038,7 +3038,24 @@ Still trying to learn how to do an insert and find in a min heap.
 - Learned how to remove elements from a hash.
 
 
-### R1D65 20190103
+### R1D65 20190104
+#### freeCodeCamp
+
+**Today's Progress:**
+None.
+
+#### SoloLearn
+
+**Today's Progress:**
+None.
+
+#### Bloc.io
+
+**Today's Progress:**
+Studying implementation of inserting data into a tree structure.
+
+
+### R1D66 20190105
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -3060,29 +3077,7 @@ Still trying to learn how to do an insert and find in a min heap.
 **Link to work:**
 
 
-### R1D66 20190104
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
-#### Bloc.io
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-
-### R1D67 20190105
+### R1D67 20190106
 #### freeCodeCamp
 
 **Today's Progress:**
