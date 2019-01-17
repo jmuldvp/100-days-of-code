@@ -3055,27 +3055,30 @@ None.
 Studying implementation of inserting data into a tree structure.
 
 
-### R1D66 20190105
+### R1D66 20190116
 #### freeCodeCamp
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+None.
 
 #### SoloLearn
 
 **Today's Progress:**
+None.
 
 #### Bloc.io
 
 **Today's Progress:**
+Made significant progress on my tree assignment. Need to figure out how to get past a..
+```
+NoMethodError:
+       undefined method `rating' for nil:NilClass
+     # ./min_heap.rb:11:in `insert'
+     # ./min_heap.rb:13:in `insert'
+     # ./min_heap_spec.rb:23:in `block (3 levels) in <top (required)>'
+```
 
-**Thoughts/Notes:**
-
-**Link to work:**
-
+..error.
 
 ### R1D67 20190106
 #### freeCodeCamp
