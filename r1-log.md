@@ -3080,7 +3080,38 @@ NoMethodError:
 
 ..error.
 
-### R1D67 20190106
+### R1D67 20190226
+
+#### Bloc.io
+
+**Today's Progress:**
+Completed section on alternative activerecord library made from scratch.  Specifically inserted code that performs database updates.
+
+
+### R1D68 20190227
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+
+### R1D69 20190226
 #### freeCodeCamp
 
 **Today's Progress:**
