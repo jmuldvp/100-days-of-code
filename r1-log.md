@@ -3085,33 +3085,18 @@ NoMethodError:
 #### Bloc.io
 
 **Today's Progress:**
-Completed section on alternative activerecord library made from scratch.  Specifically inserted code that performs database updates.
+Completed section on alternative active record library made from scratch.  Specifically inserted code that performs database updates.
 
 
 ### R1D68 20190227
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
 
 #### Bloc.io
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+Trying to add more functionality to my ORM project.  Specifically adding code to update multiple records and using `method_missing` to add support for dynamic `update_*` method calls.
 
 
-
-### R1D69 20190226
+### R1D69 20190228
 #### freeCodeCamp
 
 **Today's Progress:**
