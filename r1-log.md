@@ -3096,6 +3096,37 @@ Completed section on alternative active record library made from scratch.  Speci
 Trying to add more functionality to my ORM project.  Specifically adding code to update multiple records and using `method_missing` to add support for dynamic `update_*` method calls.
 
 
+### R1D69 20190302
+
+#### Bloc.io
+
+**Today's Progress:**
+- Added functionality to insert a hash of values to my active record replacement.
+- Implemented  `method_missing` for dynamic `update_*` calls.
+- Added a `take`, `where` and `not` instance methods.
+
+
+### R1D69 20190228
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
 ### R1D69 20190228
 #### freeCodeCamp
 
