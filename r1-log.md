@@ -3106,7 +3106,16 @@ Trying to add more functionality to my ORM project.  Specifically adding code to
 - Added a `take`, `where` and `not` instance methods.
 
 
-### R1D69 20190228
+### R1D70 20190304
+
+#### Bloc.io
+
+**Today's Progress:**
+- Added functionality to the home grown version of active record to be able to delete records.
+- Covered has_many and belongs_to associations.
+
+
+### R1D71 20190305
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -3127,7 +3136,30 @@ Trying to add more functionality to my ORM project.  Specifically adding code to
 
 **Link to work:**
 
-### R1D69 20190228
+
+### R1D72 20190306
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D73 20190307
 #### freeCodeCamp
 
 **Today's Progress:**
