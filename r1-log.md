@@ -3116,25 +3116,13 @@ Trying to add more functionality to my ORM project.  Specifically adding code to
 
 
 ### R1D71 20190305
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
 
 #### Bloc.io
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+- Added support for has_one to the bloc_record assignment.
+- Added support for Postgres.
+- Learned more about ActiveSupport::CoreExtensions::String::Inflections
 
 
 ### R1D72 20190306
