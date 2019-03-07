@@ -3126,6 +3126,15 @@ Trying to add more functionality to my ORM project.  Specifically adding code to
 
 
 ### R1D72 20190306
+
+#### Bloc.io
+
+**Today's Progress:**
+- Had to revisit an assignment I didn't include code on with the associations checkpoint. Forgot to add code to my connection.rb file.
+- Because it's the last thing on my list, I have to go back and work on the tree checkpoint. As soon as I finish that, I can begin my open source apprenticeship.  Yay!
+
+
+### R1D73 20190307
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -3147,7 +3156,29 @@ Trying to add more functionality to my ORM project.  Specifically adding code to
 **Link to work:**
 
 
-### R1D73 20190307
+### R1D74 20190308
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D75 20190309
 #### freeCodeCamp
 
 **Today's Progress:**
