@@ -3134,7 +3134,16 @@ Trying to add more functionality to my ORM project.  Specifically adding code to
 - Because it's the last thing on my list, I have to go back and work on the tree checkpoint. As soon as I finish that, I can begin my open source apprenticeship.  Yay!
 
 
-### R1D73 20190307
+### R1D73 20190319
+
+#### Bloc.io
+
+**Today's Progress:**
+I've been working on a graph algorithm entitled 6 degrees of Kevin Bacon for my school project.  I've also had to go back and try and work on my trie project.
+In the process of all of this, I've been learning more about [Pry](https://pryrepl.org/).
+
+
+### R1D74 20190320
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -3156,29 +3165,7 @@ Trying to add more functionality to my ORM project.  Specifically adding code to
 **Link to work:**
 
 
-### R1D74 20190308
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
-#### Bloc.io
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-
-### R1D75 20190309
+### R1D75 20190321
 #### freeCodeCamp
 
 **Today's Progress:**
