@@ -3143,27 +3143,12 @@ I've been working on a graph algorithm entitled 6 degrees of Kevin Bacon for my 
 In the process of all of this, I've been learning more about [Pry](https://pryrepl.org/).
 
 
-### R1D74 20190320
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
+### R1D74 20190325
 
 #### Bloc.io
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
+I finally finished a checkpoint I had been working on for 4-5 months now. Trying to implement a Min Heap Binary tree wasn't as easy as it looked at the beginning. Now I'm on to try and tackle implementing a graph data structure.
 
 ### R1D75 20190321
 #### freeCodeCamp
