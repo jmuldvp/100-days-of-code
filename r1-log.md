@@ -3159,26 +3159,11 @@ I finally finished a checkpoint I had been working on for 4-5 months now. Trying
 
 
 
-### R1D76 20190327
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
+### R1D76 20190329
 #### Bloc.io
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+Researching graphs using Google.  I also studied about graphs in the book The Ruby Way. Reading and studying trying to figure out a way to tackle the graph project/checkpoint I'm working on.
 
 
 ### R1D77 20190328
