@@ -3166,7 +3166,57 @@ I finally finished a checkpoint I had been working on for 4-5 months now. Trying
 Researching graphs using Google.  I also studied about graphs in the book The Ruby Way. Reading and studying trying to figure out a way to tackle the graph project/checkpoint I'm working on.
 
 
-### R1D77 20190328
+### R1D77 20190330
+#### Bloc.io
+
+**Today's Progress:**
+Still studying how to put a graph together and track where I've been with a search on the 6 degrees of Kevin Bacon assignment.
+
+### R1D78 20190331
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D79 20190401
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D80 20190402
 #### freeCodeCamp
 
 **Today's Progress:**
