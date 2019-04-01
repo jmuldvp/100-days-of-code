@@ -3173,25 +3173,10 @@ Researching graphs using Google.  I also studied about graphs in the book The Ru
 Still studying how to put a graph together and track where I've been with a search on the 6 degrees of Kevin Bacon assignment.
 
 ### R1D78 20190331
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
 #### Bloc.io
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+Took it easy today and studied a little more of an existing Ruby graph implementation along with a blog post about graph theory.
 
 
 ### R1D79 20190401
