@@ -3180,25 +3180,14 @@ Took it easy today and studied a little more of an existing Ruby graph implement
 
 
 ### R1D79 20190401
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
 #### Bloc.io
 
 **Today's Progress:**
+I'm still researching graphs.  I believe I get all the ideas and I believe I can explain a graph, I just need to be able to implement a graph. Read this blog post that also helped reinforce information I believe I've read on other web pages...
 
-**Thoughts/Notes:**
+[https://medium.com/basecs/from-theory-to-practice-representing-graphs-cfd782c5be38](https://medium.com/basecs/from-theory-to-practice-representing-graphs-cfd782c5be38)
 
-**Link to work:**
+Starting tomorrow, I'm going to have to study and dissect other graph implementations so that I can complete my 6 Degrees of Kevin Bacon assignment.
 
 
 ### R1D80 20190402
