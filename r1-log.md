@@ -3191,6 +3191,57 @@ Starting tomorrow, I'm going to have to study and dissect other graph implementa
 
 
 ### R1D80 20190402
+#### Bloc.io
+
+**Today's Progress:**
+Had a meeting with my mentor today and covered some topics that are going to be discussed in my phone interview with a grader.  I also made a little more progress trying to setup a spec for my graph checkpoint.  This is taking awhile to setup because of all the nodes I have to setup where I believe I'm going to have to test for more than "6 degrees of Kevin Bacon".  I've obtained real actor names. To keep it easier, I'm going to make up movie names instead of trying to associate real actors with real movies.
+
+
+### R1D81 20190403
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D82 20190404
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D83 20190405
 #### freeCodeCamp
 
 **Today's Progress:**
