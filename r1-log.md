@@ -3198,25 +3198,12 @@ Had a meeting with my mentor today and covered some topics that are going to be 
 
 
 ### R1D81 20190403
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
 #### Bloc.io
 
 **Today's Progress:**
+Still working on the 6 degrees of Kevin Bacon and I'm studying parts of code that will help me finish the project.
 
-**Thoughts/Notes:**
-
-**Link to work:**
+Outside of that, I had a moment of clarity today on a SQL project that I just couldn't figure out. Then it hit me an I had an "aha!" moment and was able to finish the bulk of the project earlier than expected.  What it came down to was breaking up the project into smaller simpler parts.
 
 
 ### R1D82 20190404
