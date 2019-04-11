@@ -3206,26 +3206,11 @@ Still working on the 6 degrees of Kevin Bacon and I'm studying parts of code tha
 Outside of that, I had a moment of clarity today on a SQL project that I just couldn't figure out. Then it hit me an I had an "aha!" moment and was able to finish the bulk of the project earlier than expected.  What it came down to was breaking up the project into smaller simpler parts.
 
 
-### R1D82 20190404
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
+### R1D82 20190410
 #### Bloc.io
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+Did more studying of ruby graph implementations.
 
 
 ### R1D83 20190405
