@@ -3213,7 +3213,80 @@ Outside of that, I had a moment of clarity today on a SQL project that I just co
 Did more studying of ruby graph implementations.
 
 
-### R1D83 20190405
+### R1D83 20190411
+#### Bloc.io
+
+**Today's Progress:**
+Only concentrating on my school work for now. Trying to setup my rspec test.
+
+
+### R1D84 20190412
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D85 20190413
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D86 20190414
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D87 20190415
 #### freeCodeCamp
 
 **Today's Progress:**
