@@ -3220,29 +3220,14 @@ Did more studying of ruby graph implementations.
 Only concentrating on my school work for now. Trying to setup my rspec test.
 
 
-### R1D84 20190412
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
+### R1D84 20190417
 #### Bloc.io
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+It's taking me awhile to setup the six degrees of kevin bacon app/exercise. I thought I had it finished but I'm not seeing any output when I launch the rb file.
 
 
-### R1D85 20190413
+### R1D85 20190418
 #### freeCodeCamp
 
 **Today's Progress:**
