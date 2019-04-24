@@ -3227,26 +3227,12 @@ Only concentrating on my school work for now. Trying to setup my rspec test.
 It's taking me awhile to setup the six degrees of kevin bacon app/exercise. I thought I had it finished but I'm not seeing any output when I launch the rb file.
 
 
-### R1D85 20190418
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
+### R1D85 20190423
 #### Bloc.io
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+Still working on my graphs project.  I'm getting an error that I can't seem to get past.
+`stack level too deep (SystemStackError)`
 
 
 ### R1D86 20190414
