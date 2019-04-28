@@ -3242,7 +3242,14 @@ Still working on my graphs project.  I'm getting an error that I can't seem to g
 Still stuck on my 6 degrees of Kevin Bacon exercise but I now realize why I was getting the `stack level too deep` message.
 
 
-### R1D87 20190426
+### R1D87 20190427
+#### Bloc.io
+
+**Today's Progress:**
+Really struggling on the Six Degrees of Kevin Bacon assignment still.  I wish I knew how to break it down into the right smaller parts to figure out the issue.
+
+
+### R1D88 20190429
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -3264,8 +3271,7 @@ Still stuck on my 6 degrees of Kevin Bacon exercise but I now realize why I was 
 **Link to work:**
 
 
-
-### R1D88 20190427
+### R1D89 20190430
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -3287,29 +3293,7 @@ Still stuck on my 6 degrees of Kevin Bacon exercise but I now realize why I was 
 **Link to work:**
 
 
-### R1D89 20190428
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
-#### Bloc.io
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-
-### R1D90 20190429
+### R1D90 20190501
 #### freeCodeCamp
 
 **Today's Progress:**
