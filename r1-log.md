@@ -3250,25 +3250,10 @@ Really struggling on the Six Degrees of Kevin Bacon assignment still.  I wish I 
 
 
 ### R1D88 20190429
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
 #### Bloc.io
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
+I think I'm almost there with the `graph` Kevin Bacon assignment.
 
 
 ### R1D89 20190430
