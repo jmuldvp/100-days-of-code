@@ -3257,26 +3257,10 @@ I think I'm almost there with the `graph` Kevin Bacon assignment.
 
 
 ### R1D89 20190430
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
 #### Bloc.io
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
+Still no dice on completing the assignment but I'm getting to learn pry along the way.
 
 ### R1D90 20190501
 #### freeCodeCamp
