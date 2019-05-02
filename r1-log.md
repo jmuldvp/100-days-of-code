@@ -3262,7 +3262,81 @@ I think I'm almost there with the `graph` Kevin Bacon assignment.
 **Today's Progress:**
 Still no dice on completing the assignment but I'm getting to learn pry along the way.
 
+
 ### R1D90 20190501
+#### Bloc.io
+
+**Today's Progress:**
+Completed my graph assignment.  I would say it was a waste of time because I've been told it's a bogus assignment by a few different people but nonetheless, I got more familiar with `pry`.
+
+
+### R1D91 20190502
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D92 20190503
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D93 20190504
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D94 20190505
 #### freeCodeCamp
 
 **Today's Progress:**
