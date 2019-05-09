@@ -3270,7 +3270,14 @@ Still no dice on completing the assignment but I'm getting to learn pry along th
 Completed my graph assignment.  I would say it was a waste of time because I've been told it's a bogus assignment by a few different people but nonetheless, I got more familiar with `pry`.
 
 
-### R1D91 20190502
+### R1D91 20190508
+#### Bloc.io
+
+**Today's Progress:**
+Studying for my progress assessment...creating my own study notes.
+
+
+### R1D92 20190509
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -3292,7 +3299,7 @@ Completed my graph assignment.  I would say it was a waste of time because I've 
 **Link to work:**
 
 
-### R1D92 20190503
+### R1D93 20190510
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -3314,29 +3321,7 @@ Completed my graph assignment.  I would say it was a waste of time because I've 
 **Link to work:**
 
 
-### R1D93 20190504
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
-#### Bloc.io
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-
-### R1D94 20190505
+### R1D94 20190511
 #### freeCodeCamp
 
 **Today's Progress:**
