@@ -3277,27 +3277,13 @@ Completed my graph assignment.  I would say it was a waste of time because I've 
 Studying for my progress assessment...creating my own study notes.
 
 
-### R1D92 20190509
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
+### R1D92 20190528
 #### Bloc.io
 
 **Today's Progress:**
+I haven't done any coding in over 3 weeks.  Instead I've been studying for a checkin assessment which I passed about an hour ago.
 
-**Thoughts/Notes:**
-
-**Link to work:**
-
+I'm not sure how much coding I'll be able to do in the next week or so.  I have 1 week left in my coding school program and my next steps are to do a lot of reading.  After that, I can start on some projects.
 
 ### R1D93 20190510
 #### freeCodeCamp
