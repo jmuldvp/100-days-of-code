@@ -3285,7 +3285,14 @@ I haven't done any coding in over 3 weeks.  Instead I've been studying for a che
 
 I'm not sure how much coding I'll be able to do in the next week or so.  I have 1 week left in my coding school program and my next steps are to do a lot of reading.  After that, I can start on some projects.
 
-### R1D93 20190510
+### R1D93 20190529
+#### Bloc.io
+
+**Today's Progress:**
+Read a half dozen articles about getting into open source.  Now I'm going to have to make a decision on a unique open source project to start.
+
+
+### R1D94 20190530
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -3307,7 +3314,118 @@ I'm not sure how much coding I'll be able to do in the next week or so.  I have 
 **Link to work:**
 
 
-### R1D94 20190511
+
+### R1D95 20190531
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D96 20190601
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D97 20190602
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D98 20190603
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D99 20190604
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### Bloc.io
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+
+### R1D100 20190605
 #### freeCodeCamp
 
 **Today's Progress:**
