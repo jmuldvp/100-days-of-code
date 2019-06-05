@@ -3292,27 +3292,11 @@ I'm not sure how much coding I'll be able to do in the next week or so.  I have 
 Read a half dozen articles about getting into open source.  Now I'm going to have to make a decision on a unique open source project to start.
 
 
-### R1D94 20190530
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
+### R1D94 20190604
 #### Bloc.io
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
+I completed my last meeting today with my instructor.  I started doing some review of React and I'm on the lookout for some projects I can contribute to.
 
 
 ### R1D95 20190531
