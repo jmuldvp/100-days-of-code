@@ -3299,7 +3299,24 @@ Read a half dozen articles about getting into open source.  Now I'm going to hav
 I completed my last meeting today with my instructor.  I started doing some review of React and I'm on the lookout for some projects I can contribute to.
 
 
-### R1D95 20190531
+### R1D95 20190611
+#### Bloc.io
+
+**Thoughts/Notes:**
+Sunday was my last day with Bloc so now I'm on my own to study whatever I see fit.  Because my goal is to create a simple website for a family member, I'm going to be studying some basic css layout with either CSS Grid or CSS Flexbox or both.
+
+#### CSS/HTML studies
+
+**Today's Progress:**
+Worked through some CSS grid examples on this [page](https://learncssgrid.com/#grid-container). Material covered...
+- `grid-template-columns`
+- `grid-template-rows`
+- `minmax()`
+- `repeat()`
+- `grid-row-gap` and `grid-column-gap`
+
+
+### R1D96 20190612
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -3312,16 +3329,8 @@ I completed my last meeting today with my instructor.  I started doing some revi
 
 **Today's Progress:**
 
-#### Bloc.io
 
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-
-### R1D96 20190601
+### R1D97 20190613
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -3334,16 +3343,9 @@ I completed my last meeting today with my instructor.  I started doing some revi
 
 **Today's Progress:**
 
-#### Bloc.io
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
 
 
-### R1D97 20190602
+### R1D98 20190614
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -3356,16 +3358,9 @@ I completed my last meeting today with my instructor.  I started doing some revi
 
 **Today's Progress:**
 
-#### Bloc.io
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
 
 
-### R1D98 20190603
+### R1D99 20190615
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -3378,16 +3373,9 @@ I completed my last meeting today with my instructor.  I started doing some revi
 
 **Today's Progress:**
 
-#### Bloc.io
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
 
 
-### R1D99 20190604
+### R1D100 20190616
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -3399,33 +3387,3 @@ I completed my last meeting today with my instructor.  I started doing some revi
 #### SoloLearn
 
 **Today's Progress:**
-
-#### Bloc.io
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-
-### R1D100 20190605
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
-#### Bloc.io
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
