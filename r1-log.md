@@ -3317,17 +3317,11 @@ Worked through some CSS grid examples on this [page](https://learncssgrid.com/#g
 
 
 ### R1D96 20190612
-#### freeCodeCamp
+#### CSS/HTML studies
 
 **Today's Progress:**
 
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
+Read more on CSS Grid from css-tricks.com.
 
 
 ### R1D97 20190613
