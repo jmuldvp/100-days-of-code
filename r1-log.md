@@ -3324,7 +3324,20 @@ Worked through some CSS grid examples on this [page](https://learncssgrid.com/#g
 Read more on CSS Grid from css-tricks.com.
 
 
-### R1D97 20190613
+### R1D97 20190617
+#### freeCodeCamp
+
+**Today's Progress:**
+Did some CSS review. I think I'm going to need a lot more CSS review and tutorials on how to take a design or frame and then try and match it before I tackle the projects at the end of that section.
+
+#### The Odin Project
+
+**Today's Progress:**
+I started this years ago but I think they wiped out my progress so I'm starting over.
+
+
+
+### R1D98 20190618
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -3337,9 +3350,12 @@ Read more on CSS Grid from css-tricks.com.
 
 **Today's Progress:**
 
+#### The Odin Project
+
+**Today's Progress:**
 
 
-### R1D98 20190614
+### R1D99 20190619
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -3352,9 +3368,13 @@ Read more on CSS Grid from css-tricks.com.
 
 **Today's Progress:**
 
+#### The Odin Project
+
+**Today's Progress:**
 
 
-### R1D99 20190615
+
+### R1D100 20190620
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -3367,17 +3387,6 @@ Read more on CSS Grid from css-tricks.com.
 
 **Today's Progress:**
 
-
-
-### R1D100 20190616
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
+#### The Odin Project
 
 **Today's Progress:**
