@@ -3338,21 +3338,15 @@ I started this years ago but I think they wiped out my progress so I'm starting 
 
 
 ### R1D98 20190618
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
 
 #### The Odin Project
 
 **Today's Progress:**
+Not much studying of code today.  Plan was to let my laptop upgrade to High Sierra from El Capitan while at work and then upgrade Ruby and Rails when I got home.  After getting home, I spent hours trying to figure out a path error. Finally found a post that said to add this to my .bashrc file...
+
+`export PATH="$GEM_HOME/bin:$PATH"`
+
+...and the path error went away.
 
 
 ### R1D99 20190619
