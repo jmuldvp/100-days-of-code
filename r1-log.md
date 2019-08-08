@@ -3349,23 +3349,11 @@ Not much studying of code today.  Plan was to let my laptop upgrade to High Sier
 ...and the path error went away.
 
 
-### R1D99 20190619
-#### freeCodeCamp
+### R1D99 20190807
+#### udemy
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
-#### The Odin Project
-
-**Today's Progress:**
-
+Completed section 2 of JavaScript fundamentals.  Pretty basic stuff but I always like a refresher since I haven't worked with it in awhile.
 
 
 ### R1D100 20190620
