@@ -3356,19 +3356,17 @@ Not much studying of code today.  Plan was to let my laptop upgrade to High Sier
 Completed section 2 of JavaScript fundamentals.  Pretty basic stuff but I always like a refresher since I haven't worked with it in awhile.
 
 
-### R1D100 20190620
-#### freeCodeCamp
+### R1D100 20190808
+#### udemy
 
 **Today's Progress:**
+Going through a free Ruby class I claimed.  Really basic stuff.  I always think that there is some trick I might have missed in the first few times I went through the basics so I'm listening to the videos a 2x.
 
 **Thoughts/Notes:**
+Something that I forgot about is..
 
-**Link to work:**
+`p .5 / 2`
 
-#### SoloLearn
+..will throw an error.  Needs to be..
 
-**Today's Progress:**
-
-#### The Odin Project
-
-**Today's Progress:**
+`p 0.5 / 2`
