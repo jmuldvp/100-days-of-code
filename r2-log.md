@@ -1,20 +1,14 @@
 ### R2D1 20190809
-#### freeCodeCamp
+#### Udemy
+Learned that these 3 lines are the same..
 
-**Today's Progress:**
+```ruby
+p 10 / 5
+p 10./(5)
+p 10.div(5)
+```
 
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
-#### The Odin Project
-
-**Today's Progress:**
-
+Glad I stuck with listening to the basics on this udemy course.  I had no idea about the second and third line.  It wasn't taught in any of the beginners courses I took before.
 
 
 ### R1D100 20190810
