@@ -20,7 +20,34 @@ I learned more of the basic stuff in the Learn to Code with Ruby course.  Really
 
 
 
-### R2D3 20190811
+### R2D3 20190812
+#### udemy
+
+I'm still following along with the Learn to Code with Ruby class.  I'm still watching it 2x because I know most everything they are going over.
+
+There is a method that I skimmed by before in a tutorial or maybe I saw it in a book which is the `respond_to?` method. I've never seen examples of it the way I saw it in the video. It's pretty cool in that it can be used to help clean or check on data before it's used or consumed.
+
+Here are some examples..
+```Ruby
+if num.respond_to?("length") # false won't run
+  num.next
+end
+puts
+puts "Hello".respond_to?("length")
+puts "Hello".respond_to?("class")
+puts "Hello".respond_to?("upcase")
+puts "Hello".respond_to?("odd?")
+puts
+# Using a symbol instead
+puts "Hello".respond_to?(:length)
+puts "Hello".respond_to?(:downcase)
+puts 1.respond_to?(:next)
+# Using the symbol object takes up less memory in Ruby
+```
+
+
+
+### R2D4 20190813
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -39,7 +66,64 @@ I learned more of the basic stuff in the Learn to Code with Ruby course.  Really
 
 
 
-### R2D4 20190812
+### R2D5 20190814
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### The Odin Project
+
+**Today's Progress:**
+
+
+
+### R2D6 20190815
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### The Odin Project
+
+**Today's Progress:**
+
+
+
+### R2D7 20190816
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### The Odin Project
+
+**Today's Progress:**
+
+
+
+### R2D8 20190817
 #### freeCodeCamp
 
 **Today's Progress:**
