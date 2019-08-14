@@ -48,22 +48,10 @@ puts 1.respond_to?(:next)
 
 
 ### R2D4 20190813
-#### freeCodeCamp
+#### udemy
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
-#### The Odin Project
-
-**Today's Progress:**
-
+Made more progress through the Ruby course.  Learned a few things about ranges and `rand`.  I even had another opportunity to code out another "FizzBuzz" challenge.
 
 
 ### R2D5 20190814
