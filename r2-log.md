@@ -58,18 +58,12 @@ Made more progress through the Ruby course.  Learned a few things about ranges a
 #### freeCodeCamp
 
 **Today's Progress:**
+I almost have my first project done which is the tribute page.  Hopefully I can finish a second by tomorrow night.
 
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
+#### Udemy
 
 **Today's Progress:**
-
-#### The Odin Project
-
-**Today's Progress:**
+Completed 2 basic HTML classes, a database design course and more progress with the Ruby coding course.
 
 
 
