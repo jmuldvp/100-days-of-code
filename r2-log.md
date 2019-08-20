@@ -67,7 +67,17 @@ Completed 2 basic HTML classes, a database design course and more progress with 
 
 
 
-### R2D6 20190815
+### R2D6 20190819
+#### udemy
+
+**Today's Progress:**
+Listened to more of the database design classes and made more progress on the Learn to Code with Ruby class.
+
+**Thoughts/Notes:**
+It's weird how some of the ruby functions normally return what you would expect but there are a few like `.pop` where if you call that method with a 1 as a parameter, it will return the value as an array.  If you don't use the parameter and assign it to a variable, you can see that it will just return the value.
+
+
+### R2D7 20190820
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -86,26 +96,7 @@ Completed 2 basic HTML classes, a database design course and more progress with 
 
 
 
-### R2D7 20190816
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
-#### The Odin Project
-
-**Today's Progress:**
-
-
-
-### R2D8 20190817
+### R2D8 20190821
 #### freeCodeCamp
 
 **Today's Progress:**
