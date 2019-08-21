@@ -78,22 +78,65 @@ It's weird how some of the ruby functions normally return what you would expect 
 
 
 ### R2D7 20190820
-#### freeCodeCamp
+#### udemy
 
 **Today's Progress:**
+Completed the udemy databae design class.  Continued on with the udemy Ruby course. This Ruby course is a long one.  Just to break things up, I started the Learn Responsive Web Development from Scratch course.  See notes below.
 
 **Thoughts/Notes:**
+A fluid layout example could be...
+- 90% width on the header
+- 3 body sections
+  - 50% width
+  - 20% width
+  - 20% width
+  - 5% padding in between them
 
-**Link to work:**
+Use flexible images so that they scale down and not go outside their container.
 
-#### SoloLearn
+Use percentages when sizing images. Use different percentages depending on screen size.
 
-**Today's Progress:**
+```css
+img {
+  max-width: 100%;
+}
+```
 
-#### The Odin Project
+The @media rule has actually been around awhile. It will allow multiple stylesheets which would be one for each type of document. The most popular are "screen" and "print". Some of the others include braille, handheld, projection and tv.
 
-**Today's Progress:**
+Examples of using media queries with external stylesheets..
+- `<link rel="stylesheet" media="screen" href="style.css" />`
+- `<link rel="stylesheet" media="only screen and (min-width:320px) and (max-width:568px)" href="mobile.css" />`
+- `<link rel="stylesheet" media="only screen and (min-width:768px) and (max-width:980px)" href="tablet.css" />`
 
+Here is some actual syntax..
+```css
+@media(max-width: 600px) {
+  /* Styles go here */
+}
+
+@media(max_width: 700px) {
+  /* Styles go here */
+}
+
+@media only screen and (min-width: 320px) and (max-max_width: 568px) {
+  /* Styles go here */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+  /* Styles go here */
+}
+```
+
+Whenever there is a breakpoint (where the screen gets smaller) we can have a CSS transition to make it look smoother.
+
+```css
+#main-column{
+  transition: width 2s;
+}
+```
+
+The "width" is the CSS property we want to animate and the "2s" is the duration in seconds.
 
 
 ### R2D8 20190821
