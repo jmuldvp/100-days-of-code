@@ -140,6 +140,70 @@ The "width" is the CSS property we want to animate and the "2s" is the duration 
 
 
 ### R2D8 20190821
+#### udemy
+
+**Today's Progress:**
+Went through some more videos on Ruby as well as a responsive web design.
+
+**Thoughts/Notes:**
+Just figured out the responsive web design class is 6 years old so there is no flexbox or grid usage but still, I like the parts about the `@media` queries.
+
+
+### R2D9 20190822
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### The Odin Project
+
+**Today's Progress:**
+
+
+### R2D10 20190823
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### The Odin Project
+
+**Today's Progress:**
+
+
+### R2D11 20190824
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### The Odin Project
+
+**Today's Progress:**
+
+
+### R2D12 20190825
 #### freeCodeCamp
 
 **Today's Progress:**
