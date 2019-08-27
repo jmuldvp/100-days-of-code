@@ -149,7 +149,21 @@ Went through some more videos on Ruby as well as a responsive web design.
 Just figured out the responsive web design class is 6 years old so there is no flexbox or grid usage but still, I like the parts about the `@media` queries.
 
 
-### R2D9 20190822
+### R2D9 20190823
+#### Misc
+
+**Today's Progress:**
+Old laptop broke. Spent the entire evening last night setting up new/refurb laptop. I can't believe it takes that long. Still have to setup Ruby on Rails, Git, Nodejs and install my Atom editor packages and a few other things.
+
+
+### R2D10 20190826
+#### udemy
+
+**Today's Progress:**
+Completed a 4 hour responsive web design course on Udemy and made more progress on the Learn to Code in Ruby Udemy course.
+
+
+### R2D11 20190827
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -167,7 +181,8 @@ Just figured out the responsive web design class is 6 years old so there is no f
 **Today's Progress:**
 
 
-### R2D10 20190823
+
+### R2D12 20190828
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -185,25 +200,8 @@ Just figured out the responsive web design class is 6 years old so there is no f
 **Today's Progress:**
 
 
-### R2D11 20190824
-#### freeCodeCamp
 
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
-#### The Odin Project
-
-**Today's Progress:**
-
-
-### R2D12 20190825
+### R2D13 20190829
 #### freeCodeCamp
 
 **Today's Progress:**
