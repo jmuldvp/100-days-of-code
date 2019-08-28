@@ -164,22 +164,15 @@ Completed a 4 hour responsive web design course on Udemy and made more progress 
 
 
 ### R2D11 20190827
-#### freeCodeCamp
+#### udemy
 
 **Today's Progress:**
+Watched more Ruby video's so that I can get a better grasp of the syntax. I also completed an HTML5 and CSS3 video series on udemy.
 
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
+#### Misc
 
 **Today's Progress:**
-
-#### The Odin Project
-
-**Today's Progress:**
-
+Trying to decide on colors and a layout for a family members website redesign.  Currently it's over 10 years old and hasn't been touched in 10 years.
 
 
 ### R2D12 20190828
