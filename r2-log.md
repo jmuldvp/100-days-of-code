@@ -175,7 +175,14 @@ Watched more Ruby video's so that I can get a better grasp of the syntax. I also
 Trying to decide on colors and a layout for a family members website redesign.  Currently it's over 10 years old and hasn't been touched in 10 years.
 
 
-### R2D12 20190828
+### R2D12 20190829
+#### udemy
+
+**Today's Progress:**
+Made more progress with the Ruby course on Udemy.  Learned about `.map` and `.collect`.
+
+
+### R2D13 20190830
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -194,7 +201,45 @@ Trying to decide on colors and a layout for a family members website redesign.  
 
 
 
-### R2D13 20190829
+### R2D14 20190831
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### The Odin Project
+
+**Today's Progress:**
+
+
+
+### R2D15 20190901
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### The Odin Project
+
+**Today's Progress:**
+
+
+
+### R2D16 20190902
 #### freeCodeCamp
 
 **Today's Progress:**
