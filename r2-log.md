@@ -182,7 +182,22 @@ Trying to decide on colors and a layout for a family members website redesign.  
 Made more progress with the Ruby course on Udemy.  Learned about `.map` and `.collect`.
 
 
-### R2D13 20190830
+### R2D13 20190901
+#### udemy
+
+**Today's Progress:**
+Had a review on some methods in the Ruby Udemy course on `concat`, `break`, `include?`, `index` and `find_index`, `select`, `reject` and `sort`.
+
+I feel this is a really good review because I was not taught about any of these methods in the coding camp.
+
+#### SoloLearn
+
+**Today's Progress:**
+It had been awhile since I had looked at JavaScript but it came back to me when doing a review in SoloLearn.  I'm trying to finish the JavaScript module soon.
+
+
+
+### R2D14 20190902
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -201,7 +216,7 @@ Made more progress with the Ruby course on Udemy.  Learned about `.map` and `.co
 
 
 
-### R2D14 20190831
+### R2D15 20190903
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -220,26 +235,7 @@ Made more progress with the Ruby course on Udemy.  Learned about `.map` and `.co
 
 
 
-### R2D15 20190901
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
-#### The Odin Project
-
-**Today's Progress:**
-
-
-
-### R2D16 20190902
+### R2D16 20190904
 #### freeCodeCamp
 
 **Today's Progress:**
