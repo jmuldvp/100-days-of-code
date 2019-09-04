@@ -198,21 +198,10 @@ It had been awhile since I had looked at JavaScript but it came back to me when 
 
 
 ### R2D14 20190902
-#### freeCodeCamp
+#### Udemy
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
-#### The Odin Project
-
-**Today's Progress:**
+Worked on some front end courses and even watched an Adobe XD set of videos to play around with it to see if it will be of use in the future.
 
 
 
