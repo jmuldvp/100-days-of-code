@@ -205,7 +205,15 @@ Worked on some front end courses and even watched an Adobe XD set of videos to p
 
 
 
-### R2D15 20190903
+### R2D15 20190904
+#### Udemy
+
+**Today's Progress:**
+Started a CSS course and completed the AdobeXD mini course.
+
+
+
+### R2D16 20190905
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -224,7 +232,64 @@ Worked on some front end courses and even watched an Adobe XD set of videos to p
 
 
 
-### R2D16 20190904
+### R2D17 20190906
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### The Odin Project
+
+**Today's Progress:**
+
+
+
+### R2D18 20190907
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### The Odin Project
+
+**Today's Progress:**
+
+
+
+### R2D19 20190908
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### The Odin Project
+
+**Today's Progress:**
+
+
+
+### R2D20 20190909
 #### freeCodeCamp
 
 **Today's Progress:**
