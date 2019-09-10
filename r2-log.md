@@ -214,21 +214,10 @@ Started a CSS course and completed the AdobeXD mini course.
 
 
 ### R2D16 20190905
-#### freeCodeCamp
+#### udemy
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
-#### The Odin Project
-
-**Today's Progress:**
+Worked on more CSS with a Udemy course
 
 
 
