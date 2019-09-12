@@ -213,7 +213,7 @@ Started a CSS course and completed the AdobeXD mini course.
 
 
 
-### R2D16 20190905
+### R2D16 20190909
 #### udemy
 
 **Today's Progress:**
@@ -221,7 +221,111 @@ Worked on more CSS with a Udemy course
 
 
 
-### R2D17 20190906
+### R2D17 20190910
+#### udemy
+
+**Today's Progress:**
+Watched more CSS videos and all of it was review.
+
+
+
+### R2D18 20190911
+#### udemy
+
+**Today's Progress:**
+Finally learning some CSS that I've never seen in other tutorials by studying 'combinators'.
+
+- Adjacent Sibling
+`div + p {}`
+This only applies css where a p tag immediately follows an h2 tag.
+Example..
+
+```CSS
+h2 + p {
+  color: red;
+}
+```
+
+```HTML
+<div>
+  <h2>not applied</h2>
+  <p>css applied</p>
+  <h2>not applied</h2>
+  <h3>not applied</h3>
+  <p>not applied</p>
+  <h2>not applied</h2>
+  <p>css applied</p>
+</div>
+```
+
+- General Sibling
+`div ~ p {}`
+  1. Has to have the same parent.
+  2. Second element comes after first.
+Example..
+```CSS
+h2 ~ p {
+  color: red;
+}
+```
+
+```HTML
+<div>
+  <h2>not applied</h2>
+  <p>css applied</p>
+  <h2>not applied</h2>
+  <h3>not applied</h3>
+  <p>css applied</p>
+</div>
+```
+
+- Child
+`div > p {}`
+  1. Second element is a direct child of first element.
+Example..
+```CSS
+div > p {
+  color: red;
+}
+```
+
+```HTML
+<div>
+  <div>not applied</div>
+  <p>css applied</p>
+  <div>not applied</div>
+  <article>
+    <p>not applied</p>
+  </article>
+  <p>css applied</p>
+</div>
+```
+
+- Descendant
+`div p {}`
+1. Second element is a descendant of the first element
+Example..
+```CSS
+div p {
+  color: red;
+}
+```
+
+```HTML
+<div>
+  <div>not applied</div>
+  <p>css applied</p>
+  <div>not applied</div>
+  <article>
+    <p>css applied</p>
+  </article>
+  <p>css applied</p>
+</div>
+```
+
+
+
+### R2D19 20190912
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -240,45 +344,7 @@ Worked on more CSS with a Udemy course
 
 
 
-### R2D18 20190907
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
-#### The Odin Project
-
-**Today's Progress:**
-
-
-
-### R2D19 20190908
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
-#### The Odin Project
-
-**Today's Progress:**
-
-
-
-### R2D20 20190909
+### R2D20 20190913
 #### freeCodeCamp
 
 **Today's Progress:**
