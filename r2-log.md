@@ -326,21 +326,21 @@ div p {
 
 
 ### R2D19 20190912
-#### freeCodeCamp
+#### udemy
 
 **Today's Progress:**
+Completed a 2 hour video on CSS. Made more progress through what's turning out to be another pretty cool CSS course.
 
 **Thoughts/Notes:**
+*Margin Collapsing* is when to elements are right next to each other and the margin of the joining sides over lap.  If one elements margin is bigger than the other, that margin is used instead of the smaller margin.
 
-**Link to work:**
+_Body has a margin value_ - When trying to measure things within the body where you need exact measurements to fit the entire screen, know that the body has a margin by default.
 
-#### SoloLearn
-
-**Today's Progress:**
 
 #### The Odin Project
 
 **Today's Progress:**
+Had to reset up some stuff that was setup on previous laptop.  Good to touch rails again.
 
 
 
