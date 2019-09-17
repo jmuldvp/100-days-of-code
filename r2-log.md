@@ -344,7 +344,102 @@ Had to reset up some stuff that was setup on previous laptop.  Good to touch rai
 
 
 
-### R2D20 20190913
+### R2D20 20190916
+#### Udemy
+
+**Today's Progress:**
+Made some more progress on the Ruby course.  I love the small examples and the short challenges he gives.
+
+
+#### The Odin Project
+
+**Today's Progress:**
+Did a review on Git and flew through some of the SQL material given I work with that every day.  
+
+This gitignore website seems like it could come in handy..
+
+(https://www.gitignore.io/)[https://www.gitignore.io/]
+
+I think I'll probably be able to fly through the HTML/CSS section along with at least half of the Ruby section.
+
+
+
+### R2D21 20190917
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### The Odin Project
+
+**Today's Progress:**
+
+
+### R2D22 20190918
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### The Odin Project
+
+**Today's Progress:**
+
+
+
+### R2D23 20190919
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### The Odin Project
+
+**Today's Progress:**
+
+
+
+### R2D24 20190920
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### The Odin Project
+
+**Today's Progress:**
+
+
+
+### R2D25 20190921
 #### freeCodeCamp
 
 **Today's Progress:**
