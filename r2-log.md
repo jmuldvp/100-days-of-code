@@ -365,21 +365,15 @@ I think I'll probably be able to fly through the HTML/CSS section along with at 
 
 
 ### R2D21 20190917
-#### freeCodeCamp
+#### udemy
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
+Changed things up today.  Started a short 2+ hour Udemy tutorial titled "Build a Responsive Website with a Modern Flat Design".  Looks like I'm going to be learning about the Foundation Framework.
 
 #### The Odin Project
 
 **Today's Progress:**
+I can't believe the heavy emphasis on Git that The Odin Project gives to it.  I'm almost done with the Git section. I think I'll finish it up tomorrow and then moving on to the front end section.
 
 
 ### R2D22 20190918
