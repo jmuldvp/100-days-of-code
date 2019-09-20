@@ -376,7 +376,7 @@ Changed things up today.  Started a short 2+ hour Udemy tutorial titled "Build a
 I can't believe the heavy emphasis on Git that The Odin Project gives to it.  I'm almost done with the Git section. I think I'll finish it up tomorrow and then moving on to the front end section.
 
 
-### R2D22 20190918
+### R2D22 20190919
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -385,17 +385,76 @@ I can't believe the heavy emphasis on Git that The Odin Project gives to it.  I'
 
 **Link to work:**
 
-#### SoloLearn
+#### Denver Startup week
 
 **Today's Progress:**
+Attended GraphQL, pick your next database and React sessions
+
 
 #### The Odin Project
 
 **Today's Progress:**
+Notes on how to write good commit Git messages...
+
+1. Seperate subject from body with a blank line
+2. Limit the subject line to 50 characters
+3. Captialize the subject line
+4. Do not end the subject line with a period
+5. Use the imperative mood in the subject line
+6. Wrap the body at 72 characters
+7. Use the body to explain what and why vs how
+
+A properly formed Git commit subject line should always be able to complete the following sentence:
+
+- If applied, this commit will _your subject line here_
+
+For example:
+
+- If applied, this commit will *refactor subsystem X for readability*
+- If applied, this commit will *update getting started documentation*
+- If applied, this commit will *remove deprecated methods*
+- If applied, this commit will *release version 1.0.0*
+- If applied, this commit will *merge pull request #123 from user/branch*
+
+This doesn't work like the way I've been doing it..
+
+- If applied, this commit will *fixed bug with Y*
+- If applied, this commit will *changing behavior of X*
+- If applied, this commit will *more fixes for broken stuff*
+- If applied, this commit will *sweet new API methods*
+
+Here is an example for number 7...
+
+```
+commit eb0b56b19017ab5c16c745e6da39c53126924ed6
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Fri Aug 1 22:57:55 2014 +0200
+
+   Simplify serialize.h's exception handling
+
+   Remove the 'state' and 'exceptmask' from serialize.h's stream
+   implementations, as well as related methods.
+
+   As exceptmask always included 'failbit', and setstate was always
+   called with bits = failbit, all it did was immediately raise an
+   exception. Get rid of those variables, and replace the setstate
+   with direct exception throwing (which also removes some dead
+   code).
+
+   As a result, good() is never reached after a failure (there are
+   only 2 calls, one of which is in tests), and can just be replaced
+   by !eof().
+
+   fail(), clear(n) and exceptions() are just never called. Delete
+   them.
+```
+
+Note: In most cases, you can leave out details about how a change has been made. Code is generally self-explanatory in this regard (and if the code is so complex that it needs to be explained in prose, that’s what source comments are for). Just focus on making clear the reasons why you made the change in the first place—the way things worked before the change (and what was wrong with that), the way they work now, and why you decided to solve it the way you did.
 
 
 
-### R2D23 20190919
+
+### R2D23 20190920
 #### freeCodeCamp
 
 **Today's Progress:**
