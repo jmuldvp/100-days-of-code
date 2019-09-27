@@ -454,7 +454,28 @@ Note: In most cases, you can leave out details about how a change has been made.
 
 
 
-### R2D23 20190920
+### R2D23 20190926
+#### udemy
+
+**Today's Progress:**
+Started another course called 8 Beautiful Ruby on Rails apps.
+
+**Thoughts/Notes:**
+- Calling `5.methods` will give a list of all available methods for the number 5.
+
+- Using symbols is more efficient in the following example...
+```Ruby
+"twelve".object_id
+```
+..vs using this..
+```ruby
+:twelve.object_id
+```
+- Started a project named Cabinet to store files.
+
+
+
+### R2D24 20190927
 #### freeCodeCamp
 
 **Today's Progress:**
@@ -473,26 +494,7 @@ Note: In most cases, you can leave out details about how a change has been made.
 
 
 
-### R2D24 20190920
-#### freeCodeCamp
-
-**Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
-#### The Odin Project
-
-**Today's Progress:**
-
-
-
-### R2D25 20190921
+### R2D25 20190928
 #### freeCodeCamp
 
 **Today's Progress:**
