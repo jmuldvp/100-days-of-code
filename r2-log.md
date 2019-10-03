@@ -475,23 +475,11 @@ Started another course called 8 Beautiful Ruby on Rails apps.
 
 
 
-### R2D24 20190927
-#### freeCodeCamp
+### R2D24 20191002
+#### udemy
 
 **Today's Progress:**
-
-**Thoughts/Notes:**
-
-**Link to work:**
-
-#### SoloLearn
-
-**Today's Progress:**
-
-#### The Odin Project
-
-**Today's Progress:**
-
+Went thru more of the Rails projects lessons. Associated a docs table with a user table.
 
 
 ### R2D25 20190928
