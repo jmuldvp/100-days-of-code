@@ -1,3 +1,9 @@
+# #100DaysOfCode Log - Round 2
+
+My second log of my #100DaysOfCode challenge. First round started on August 3rd, 2017.
+
+## Log
+
 ### R2D1 20190809
 #### Udemy
 Learned that these 3 lines are the same..
@@ -482,7 +488,139 @@ Started another course called 8 Beautiful Ruby on Rails apps.
 Went thru more of the Rails projects lessons. Associated a docs table with a user table.
 
 
-### R2D25 20190928
+### R2D25 20191015
+#### Udemy
+
+**Today's Progress:**
+I've already viewed the first project once. I'm going to go through it a second time but add some customizations to it.
+
+**Thoughts/Notes:**
+Steps starting with video 21..
+
+1. Create static page named welcome.
+* Used `rails generate controller welcome index`.  If you want to create a view file, you must create a controller file for it.  Adding `index` to that command adds index.html.erb file.
+2. Entering `rails s` will start the rails server.
+* Going to localhost:3000 will get you to the main page
+* Going to localhost:3000/welcome/index will get you to a generic page. The welcome word is the controller and the index word is the action.
+3. After modifying the /config/routes.rb file to `root 'welcome#index'`, that will make it so that all you have to do is enter localhost:3000 and it will go to the same page as localhost:3000/welcome/index
+4. Added the `simple_form`, `haml` and `devise` gems then run `bundle install`
+5. Renamed index.html.erb to index.html.haml
+6. Generated a model called Doc with `rails generate model Doc title:string content:text` then performed a `rake db:migrate`. The schema.rb file only appears in /db/migrate after running the first `rake db:migrate` the first time. Never touch this file for any reason but rather use migrations.
+7. Run `rails generate controller Docs` which creates the view directory but not the file.
+8. Added `resources` to the routes.rb file for docs.
+* If I go to the terminal, I can run `rake routes` to see all the new docs routes.
+9. Added new view files to docs.. \_form.html.haml (which is a partial) and new.html.haml.
+10. Actually install simple_form by going to the home page for instructions. Since the gem is installed, so all that is left is `rails generate simple_form:install`. After running that command, restart the rails server.
+11. Modify the partial file that was created to list multiple document entries if they exist.
+12. Enter `= render 'form'` in the new.html.haml file so that it can render the partial.
+13. Modify the docs_controller.rb file so that it doesn't throw an error.
+* At this point we can access localhost:3000/docs/new
+14. Need to add a show view in order to show a doc entry.
+* Add a `before_action` at the top of the controller to do a `find_doc` on `:show`, `:edit`, `:update` and `:destroy` (actions).
+* When trying to go to /docs, I get a missing template error which is telling us that the view for the index action does not exist.
+15. Add code to the docs controller for the index action.
+
+
+#### The Odin Project
+
+**Today's Progress:**
+Reviewed the web page on how to write a good Git commit message.
+
+(https://chris.beams.io/posts/git-commit/)[https://chris.beams.io/posts/git-commit/]
+
+My plan is to use the guidance in this post to write my own messages for the Udemy project - FileCabinet.
+
+#### Misc Notes
+**Instructions for a new Git repo:**
+
+Create a new repository on the command line where the name of the repo is `filecab`.
+
+```github
+echo "# filecab" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:jmuldvp/filecab.git
+git push -u origin master
+```
+
+### R2D26 20191016
+#### Udemy
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### The Odin Project
+
+**Today's Progress:**
+
+
+
+### R2D27 20191017
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### The Odin Project
+
+**Today's Progress:**
+
+
+
+### R2D28 20191018
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### The Odin Project
+
+**Today's Progress:**
+
+
+
+### R2D29 20191019
+#### freeCodeCamp
+
+**Today's Progress:**
+
+**Thoughts/Notes:**
+
+**Link to work:**
+
+#### SoloLearn
+
+**Today's Progress:**
+
+#### The Odin Project
+
+**Today's Progress:**
+
+
+
+### R2D30 20191020
 #### freeCodeCamp
 
 **Today's Progress:**

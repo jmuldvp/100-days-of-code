@@ -1,4 +1,4 @@
-# #100DaysOfCode Log - Round 1 - John M
+# #100DaysOfCode Log - Round 1
 
 The log of my #100DaysOfCode challenge. Started on [August 3rd, 2017].
 
